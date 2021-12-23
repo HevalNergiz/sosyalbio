@@ -1,0 +1,111 @@
+.floating {
+  animation-name: Floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+
+.scaling {
+  animation-name: Scale;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Scale {
+  from {
+    transform: scale(0.9);
+  }
+  65% {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9);
+  }
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: springgreen;
+  margin: 3em auto;
+}
+
+.animatedcards.floating.linkednn {
+  animation-delay: .5s;
+}
+
+.animatedcards.floating.insta {
+  animation-delay: 1s;
+}
+
+@media (max-width: 768px) {
+  .animatedcards.floating.linkednn {
+    position: absolute;
+    top: 15rem;
+    right: 44%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards.floating.linkednn {
+    position: absolute;
+    top: 15rem;
+    right: 37%;
+  }
+}
+
+@media (max-width: 768px) {
+  .animatedcards.floating.insta {
+    position: absolute;
+    top: 6.5rem;
+    right: 4%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards.floating.insta {
+    position: absolute;
+    top: 5rem;
+    right: 11%;
+  }
+}
+
+@media (max-width: 576px) {
+  .animatedcardsdiv {
+    height: 27rem;
+    position: relative;
+    display: flex;
+  }
+}
+
+@media (min-width: 576px) {
+  .animatedcardsdiv {
+    height: 30rem;
+    position: relative;
+    display: flex;
+  }
+}
+
+.phone-image-hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mockupscards {
+    width: 30%;
+  }
+}
+

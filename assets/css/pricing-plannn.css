@@ -1,0 +1,250 @@
+.neumorphic {
+  box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+}
+
+@media (min-width: 768px) {
+  .highlight-blue {
+    max-width: 100%!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .highlight-blue.neumorphic {
+    max-width: 400px;
+  }
+}
+
+.pricingplan .col .neumorphic {
+  padding: 20px 20px 30px 20px;
+  border-radius: 15px;
+  background: linear-gradient(137deg, rgb(242,244,248), rgb(250,251,252) 100%);
+  max-width: 400px;
+  margin: auto;
+  transition-duration: .5s;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.pricingplan svg {
+  color: #c2cacf;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.pricingplan li {
+  margin-bottom: .5rem;
+  font-size: .9rem;
+  height: 24.5px;
+}
+
+@media (max-width: 768px) {
+  .pricingplan .col {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricingplan .col:first-child {
+    margin-top: 0rem;
+  }
+}
+
+.pricingplan ul {
+  margin-top: 2rem;
+}
+
+.pricingplan .btn {
+  font-family: 'Gilroy-Light ☞';
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 2.9rem;
+  font-size: larger;
+  min-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 80%;
+  }
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.planisec {
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.planisec button {
+  background: linear-gradient(-144deg, #ff0049, #ff0099);
+  font-family: 'Gilroy-Medium ☞';
+  box-shadow: 0px 11px 20px rgba(255,54,163,0.25);
+  border: none;
+}
+
+.containerheading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.pricingplan .price {
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 34px;
+  color: linear-gradient(45deg, #3699ff, #3a36ff);
+}
+
+.pricingplan .btn-primary {
+  font-size: .9rem;
+  height: 2.5rem;
+  font-weight: 800;
+}
+
+.pricingplan .description {
+  font-size: 15px;
+  color: #80898e;
+  margin-bottom: 2rem;
+  font-family: 'Gilroy-Light ☞';
+}
+
+.planname {
+  font-family: 'Gilroy-Bold ☞';
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.buttons.intro {
+  margin-bottom: 0!important;
+}
+
+@media (min-width: 992px) {
+  .pricingplan .col {
+    margin: 0px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .pricingplan .col {
+    margin: 20px 0;
+  }
+}
+
+.container {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.highlight-blue {
+  color: #fff;
+  background: linear-gradient(45deg, #3699ff, #3a36ff)!important;
+  padding: 40px 0;
+  border-radius: 20px;
+}
+
+.highlight-blue p {
+  color: #e4e8ee;
+  line-height: 1.5;
+}
+
+.highlight-blue h2 {
+  font-weight: normal;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-blue .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 10px auto 40px;
+}
+
+.highlight-blue .buttons {
+  text-align: center;
+}
+
+.highlight-blue .buttons .btn {
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  line-height: 1.8;
+  height: 3rem;
+  display: grid;
+  align-items: center;
+}
+
+.highlight-blue .buttons .btn:hover {
+  opacity: 1;
+}
+
+.highlight-blue .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-blue .buttons .btn-primary, .highlight-blue .buttons .btn-primary:active {
+  border: 2px solid rgb(255,255,255);
+  border-radius: 10px;
+  color: #efefef;
+  box-shadow: none;
+  text-shadow: none;
+  background: transparent;
+  transition: background-color 0.25s;
+}
+
+.pricingplan .col {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .bos {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .animatedcards {
+    width: 49%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards {
+    width: 40%;
+  }
+}
+
