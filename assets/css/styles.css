@@ -446,7 +446,7 @@ body {
 @media (max-width: 768px) {
   .mockupblock {
     height: 2rem;
-    background: #dcdcdc;
+    background: #e8e8e8;
     border-radius: 10px;
     margin-bottom: .7rem;
   }
