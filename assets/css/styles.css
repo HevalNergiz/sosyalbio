@@ -15,9 +15,8 @@
 }
 
 .phone-image {
-  max-width: 70%;
-  margin-top: 1rem;
-  max-height: 95vh;
+  max-width: 30%;
+  border-radius: 100%;
 }
 
 body {
@@ -433,5 +432,35 @@ body {
   border: none;
   color: #000000;
   font-family: 'Gilroy-Medium ☞';
+}
+
+@media (min-width: 768px) {
+  .mockupblock {
+    height: 2.5rem;
+    background: #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mockupblock {
+    height: 2.4rem;
+    background: #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: .7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .floating.mockupscards {
+    width: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerleftdiv {
+    margin-bottom: 2rem;
+  }
 }
 

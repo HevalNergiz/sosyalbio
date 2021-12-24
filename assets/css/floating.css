@@ -105,14 +105,14 @@
 
 @media (max-width: 768px) {
   .mockupscards {
-    width: 30%;
+    width: 33%;
   }
 }
 
 @media (min-width: 576px) {
   .floating.mockupscards.sol {
-    left: 0%;
-    top: 50%;
+    left: 7%;
+    top: 55%;
   }
 }
 
