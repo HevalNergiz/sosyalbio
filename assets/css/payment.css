@@ -120,7 +120,7 @@
   border: none;
   box-shadow: none;
   margin-top: 30px;
-  height: 3rem;
+  height: 3.2rem;
   border-radius: 1rem;
 }
 
@@ -450,5 +450,13 @@
   .doodle2 {
     display: none;
   }
+}
+
+.paymentdiv .form-control {
+  border-radius: .7rem;
+  height: 3rem;
+  display: inline-flex;
+  background-color: #f2f4f8;
+  border-color: #f2f4f8;
 }
 
