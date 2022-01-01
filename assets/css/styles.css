@@ -514,3 +514,24 @@ body {
   }
 }
 
+.anasayfakisim {
+  margin-bottom: 4rem;
+}
+
+.features .col {
+  margin-bottom: 2rem;
+}
+
+.features .baslik {
+  text-align: center;
+  font-family: 'Gilroy-Bold ☞';
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  height: 40px;
+}
+
+.features p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
