@@ -1,0 +1,16 @@
+.okudumonayliyorum a {
+  text-decoration: none;
+  color: #212529;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.okudumonayliyorum {
+  color: #212529;
+  font-size: .9rem;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+

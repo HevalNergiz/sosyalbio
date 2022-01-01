@@ -24,7 +24,7 @@
     left: 0px;
     top: 3px;
     font-family: 'Gilroy-Light ☞';
-    color: var(--bs-gray);
+    color: var(--bs-body-color);
     z-index: 99999999999999;
   }
 }
@@ -37,7 +37,7 @@
     left: 0;
     top: 0px;
     font-family: 'Gilroy-Light ☞';
-    color: var(--bs-gray);
+    color: var(--bs-body-color);
   }
 }
 
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 768px) {
-  svg {
+  .animatedtyping svg {
     position: absolute;
     font-size: 2rem;
     color: #ff0049;
@@ -100,7 +100,7 @@
 }
 
 @media (min-width: 768px) {
-  svg {
+  .animatedtyping svg {
     position: absolute;
     font-size: 2.5rem;
     color: #ff0049;

@@ -1,0 +1,82 @@
+.logindiv {
+  max-width: 420px;
+  width: 90%;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.loginbutton {
+  height: 40px!important;
+  font-size: 1rem!important;
+}
+
+.loginform .form-control {
+  background-color: #f2f4f8;
+  border-radius: 9px;
+  padding-left: 1.4rem;
+  margin-bottom: 1rem;
+  height: 45px;
+}
+
+.loginbutton:hover {
+  background: #0c63e4;
+  border: #0c63e4;
+}
+
+.loginbutton {
+  background: var(--bs-blue);
+  border: var(--bs-blue);
+}
+
+.socialmediadiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.socialmediadiv svg, .socialmediadiv i {
+  color: #212529;
+  font-size: 1.5rem;
+}
+
+.socialmediadiv a {
+  text-decoration: none;
+  color: #606060;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  font-family: 'Gilroy-Light ☞';
+  border-radius: 10px;
+  margin-top: 10px;
+  height: 2.9rem;
+  font-size: larger;
+  min-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .btn {
+    width: 80%;
+  }
+}
+

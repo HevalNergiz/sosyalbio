@@ -5,6 +5,25 @@
   animation-timing-function: ease-in-out;
 }
 
+.floating-yatay {
+  animation-name: Floating-yatay;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes Floating-yatay {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(10px, 5px);
+  }
+  to {
+    transform: translate(0, 0px);
+  }
+}
+
 @keyframes Floating {
   from {
     transform: translate(0, 0px);
@@ -68,6 +87,38 @@
 }
 
 @media (max-width: 768px) {
+  .animatedcards.floating-yatay.store {
+    position: absolute;
+    top: 13rem;
+    left: 16%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards.floating-yatay.store {
+    position: absolute;
+    top: 15rem;
+    left: 16%;
+  }
+}
+
+@media (max-width: 768px) {
+  .animatedcards.floating-yatay.podcast {
+    position: absolute;
+    top: 19rem;
+    right: 11%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards.floating-yatay.podcast {
+    position: absolute;
+    top: 22rem;
+    right: 11%;
+  }
+}
+
+@media (max-width: 768px) {
   .animatedcards.floating.insta {
     position: absolute;
     top: 6.5rem;
@@ -79,6 +130,22 @@
   .animatedcards.floating.insta {
     position: absolute;
     top: 5rem;
+    right: 11%;
+  }
+}
+
+@media (max-width: 768px) {
+  .animatedcards.floating-yatay.etkinlik {
+    position: absolute;
+    top: 7rem;
+    right: 11%;
+  }
+}
+
+@media (min-width: 768px) {
+  .animatedcards.floating-yatay.etkinlik {
+    position: absolute;
+    top: 8rem;
     right: 11%;
   }
 }
@@ -120,6 +187,26 @@
   .floating.mockupscards.sol {
     left: 3%;
     top: 55%;
+  }
+}
+
+.anasayfakisim {
+  margin-bottom: 2rem;
+}
+
+.animationcol {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .animatedcards {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .animatedcards {
+    width: 49%;
   }
 }
 
