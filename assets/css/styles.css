@@ -508,3 +508,9 @@ body {
   height: 45px;
 }
 
+@media (min-width: 576px) {
+  .aboneliktabs {
+    max-width: 50%;
+  }
+}
+
