@@ -37,21 +37,21 @@
     left: 0;
     top: 0px;
     font-family: 'Gilroy-Light ☞';
-    color: var(--bs-body-color);
+    color: #373737;
   }
 }
 
 @media (max-width: 768px) {
   .blc {
     font-size: 1.2rem;
-    font-family: 'Gilroy-Bold ☞';
+    font-family: 'Gilroy-Medium ☞';
   }
 }
 
 @media (min-width: 768px) {
   .blc {
     font-size: 2.5rem;
-    font-family: 'Gilroy-Bold ☞';
+    font-family: 'Gilroy-Medium ☞';
   }
 }
 
@@ -94,7 +94,7 @@
   .animatedtyping svg {
     position: absolute;
     font-size: 2rem;
-    color: #ff0049;
+    color: #ff0099;
     left: 1rem;
   }
 }
@@ -103,7 +103,7 @@
   .animatedtyping svg {
     position: absolute;
     font-size: 2.5rem;
-    color: #ff0049;
+    color: #ff0099;
     left: 1rem;
   }
 }

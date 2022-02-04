@@ -1,0 +1,111 @@
+.accordion-item:first-of-type {
+  border-radius: 12px;
+}
+
+.accordion-item {
+  background-color: #f2f4f8;
+  border: 0px;
+  margin: 1rem 0;
+  border-radius: 12px!important;
+  box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+  overflow-y: visible;
+}
+
+.accordion-header {
+  font-family: 'Gilroy-Bold ☞';
+  box-shadow: none;
+  border: none;
+  border-bottom: 0px;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  /*border-radius: 12px;*/
+}
+
+.accordion-collapse.collapse {
+  background-color: #f2f4f8;
+  box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
+  border-bottom-left-radius: 12px!important;
+  border-bottom-right-radius: 12px!important;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0;
+}
+
+.accordion-button:focus {
+  z-index: 3;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-radius: 12px;
+}
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  background-color: #f2f4f8!important;
+  border: 0;
+  border-radius: 12px;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease!important;
+  border: none!important;
+  box-shadow: none;
+  border: 0px;
+}
+
+.mb-0, .mb-0.text-white, .fs-24.text-white {
+  color: #333333!important;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  #accordion-3 {
+    display: none;
+  }
+}
+
+.tepebaglantilar:hover {
+  color: #ededed;
+}
+
+.apperance .profileimage {
+  margin-bottom: 1rem;
+}
+
+.linkbox.button2-outline .cash {
+  color: var(--button-color);
+}
+
+.onizlemecontent .bioaciklama {
+  font-size: .7rem;
+}
+
+.linkboxbaslik {
+}
+

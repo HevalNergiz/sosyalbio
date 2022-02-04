@@ -426,32 +426,6 @@
   /*color: rgba(0, 0, 0, .6);*/
 }
 
-.doodle1 {
-  position: absolute;
-  width: 2.5rem;
-  left: -2.5rem;
-  top: -1.5rem;
-}
-
-.doodle2 {
-  position: absolute;
-  width: 2rem;
-  left: 14.5rem;
-  top: -1.5rem;
-}
-
-@media (max-width: 576px) {
-  .doodle1 {
-    display: none;
-  }
-}
-
-@media (min-width: 576px) {
-  .doodle2 {
-    display: none;
-  }
-}
-
 .paymentdiv .form-control {
   border-radius: .7rem;
   height: 3rem;

@@ -1,0 +1,79 @@
+img, svg {
+  vertical-align: middle;
+}
+
+.openbtn {
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  border: none;
+  background: rgb(255,0,73);
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1), right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1), transform 250ms 1100ms ease, width 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1), height 650ms 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  animation: border-transform 7s linear infinite;
+  width: 70px;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.openbtn:hover {
+  background-color: #cf003b;
+}
+
+.hareketlininiconu {
+  font-size: 33px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes border-transform {
+  0%, 100% {
+    border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  }
+  14% {
+    border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+  }
+  28% {
+    border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+  }
+  42% {
+    border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+  }
+  56% {
+    border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+  }
+  70% {
+    border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+  }
+  84% {
+    border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+  }
+}
+

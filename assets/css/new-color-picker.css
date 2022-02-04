@@ -1,0 +1,184 @@
+.color-wrapper3 {
+  position: relative;
+  /*width: 50px;*/
+  /*margin: 10px auto;*/
+  height: 40px;
+  display: inline-flex;
+}
+
+.color-wrapper2 {
+  position: relative;
+  /*width: 40px;*/
+  /*margin: 10px auto;*/
+  height: 40px;
+  display: inline-flex;
+}
+
+.color-wrapper {
+  position: relative;
+  /*width: 250px;*/
+  /*margin: 0px auto;*/
+  height: 40px;
+  display: inline-flex;
+}
+
+.color-wrapper p {
+  margin-bottom: 5px;
+}
+
+input.call-picker3 {
+  border: 1px solid #AAA;
+  color: #666;
+  text-transform: uppercase;
+  float: left;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 85px;
+}
+
+input.call-picker2 {
+  border: 1px solid #AAA;
+  color: #666;
+  text-transform: uppercase;
+  float: left;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 85px;
+}
+
+input.call-picker {
+  border: 1px solid #AAA;
+  color: #666;
+  text-transform: uppercase;
+  float: left;
+  outline: none;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 85px;
+}
+
+.color-picker3 {
+  width: 200px;
+  background: #F3F3F3;
+  height: 86px;
+  padding: 5px;
+  /*border: 5px solid #fff;*/
+  box-shadow: 0px 0px 3px 1px #DDD;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  z-index: 999999;
+}
+
+.color-picker2 {
+  width: 200px;
+  background: #F3F3F3;
+  height: 86px;
+  padding: 5px;
+  /*border: 5px solid #fff;*/
+  box-shadow: 0px 0px 3px 1px #DDD;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  z-index: 999999;
+}
+
+.color-picker {
+  width: 200px;
+  background: #F3F3F3;
+  height: 86px;
+  padding: 5px;
+  /*border: 5px solid #fff;*/
+  box-shadow: 0px 0px 3px 1px #DDD;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  z-index: 99999;
+}
+
+.color-holder3 {
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid #AAA;
+  width: 96px;
+  height: 40px;
+  float: left;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+
+.color-holder2 {
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid #AAA;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 0px;
+  border-radius: 14px;
+}
+
+.color-holder {
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid #AAA;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 0px;
+  border-radius: 14px;
+}
+
+.color-picker3 .color-item3 {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  list-style-type: none;
+  float: left;
+  margin: 2px;
+  border: 1px solid #DDD;
+}
+
+.color-picker2 .color-item2 {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  list-style-type: none;
+  float: left;
+  margin: 2px;
+  border: 1px solid #DDD;
+}
+
+.color-picker .color-item {
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  list-style-type: none;
+  float: left;
+  margin: 2px;
+  border: 1px solid #DDD;
+}
+
+.color-picker3 .color-item3:hover {
+  border: 1px solid #666;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8);
+}
+
+.color-picker2 .color-item2:hover {
+  border: 1px solid #666;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8);
+}
+
+.color-picker .color-item:hover {
+  border: 1px solid #666;
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  filter: alpha(opacity=8);
+}
+
