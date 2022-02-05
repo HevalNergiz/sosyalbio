@@ -36,23 +36,25 @@
 </head>
 
 <body>
-    <div class="container createpage">
-        <nav class="navbar navbar-light navbar-expand">
-            <div class="container-fluid"><a class="navbar-brand" href="adminpanel.html" style="margin-left: 6px;">&nbsp;&nbsp;<img class="logo" src="assets/img/1t.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse d-flex align-items-center" id="navcol-2" style="align-items: center;justify-content: center;justify-items: center;">
-                    <ul class="navbar-nav flex-grow-1 justify-content-end" style="position: relative;">
-                        <li class="nav-item d-lg-flex align-items-lg-center" style="display: flex;justify-content: space-around;font-family: 'Gilroy-Bold ☞';"><a class="nav-link" href="#" style="font-family: 'Gilroy-Bold ☞';color: #1d1e27;">Panele Git</a></li>
-                        <li class="nav-item d-lg-flex align-items-lg-center" style="display: flex;justify-content: space-around;">
-                            <div class="nav-item dropdown" style="display: grid;align-items: center;/*margin-right: .7rem;*/margin-left: .2rem;"><a class="dropdown-toggle d-lg-flex align-items-lg-center" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #1c1d25;font-size: 0.7rem;text-decoration: none;"><span style="font-family: 'Gilroy-Bold ☞';font-size: 1.1rem;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill" style="font-size: 1.3rem;">
+    <div class="container">
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="#"><img class="logo" src="assets/img/1t.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-5">
+                    <ul class="navbar-nav flex-grow-1 mobildeortalanacak">
+                        <li class="nav-item"><a class="nav-link" href="#" style="font-family: 'Gilroy-Bold ☞';color: #1d1e27;">Panele Git</a></li>
+                        <li class="nav-item">
+                            <div class="nav-item dropdown" style="display: grid;align-items: center;/*margin-right: .7rem;*/margin-left: .2rem;text-align: center;justify-content: center;"><a class="dropdown-toggle d-lg-flex align-items-lg-center" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #1c1d25;font-size: 0.7rem;text-decoration: none;"><span style="font-family: 'Gilroy-Bold ☞';font-size: 1.1rem;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill" style="font-size: 1.3rem;">
                                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                         </svg>&nbsp;Hesap&nbsp;</span></a>
-                                <div class="dropdown-menu" style="border: none;border-radius: 10px;font-family: 'Gilroy-Light ☞';"><a class="dropdown-item" href="#">Hesap Ayarları</a><a class="dropdown-item" href="#">Paket Bilgileri</a><a class="dropdown-item" href="#">Çıkış Yap</a></div>
+                                <div class="dropdown-menu" style="border: none;border-radius: 10px;font-family: 'Gilroy-Light ☞';max-width: 40px;"><a class="dropdown-item" href="#">Hesap Ayarları</a><a class="dropdown-item" href="#">Paket Bilgileri</a><a class="dropdown-item" href="#">Çıkış Yap</a></div>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+    </div>
+    <div class="container createpage">
         <div class="row" style="margin: 0;">
             <div class="col siralama" style="font-family: 'Gilroy-Light ☞';min-width: 60%;padding-bottom: 3rem;padding: 0;">
                 <div>
@@ -65,14 +67,14 @@
                             <div class="row linklersecenek">
                                 <div class="col d-lg-flex justify-content-lg-start" style="text-align: left;padding: 0;min-width: 60%;"><button class="btn btn-primary" type="button" style="width: 100%;background-color: #ff0049;border: none;" data-bs-toggle="modal" data-bs-target="#modal-3">Yeni Link Ekle</button></div>
                             </div>
-                            <div class="linkler drag-list" style="max-height: 500px;overflow-y: scroll;scrollbar-width: thin;margin-top: 1.5rem;padding-right: 1rem;">
+                            <div class="linkler drag-list" style="max-height: 500px;overflow-y: scroll;scrollbar-width: thin;margin-top: 1.5rem;padding-right: .2rem;">
                                 <ul class="list-unstyled linkler draggable-list" data-draggable="draggable">
                                     <li class="drag-item mediaitem" draggable="True"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-trash-fill more">
                                             <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"></path>
                                         </svg><span class="linkbaslik"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-link-45deg basliklogo linkicon">
                                                 <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"></path>
                                                 <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"></path>
-                                            </svg>Yapay zeka kurtuluş mu, son mu?<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-fill duzenleme">
+                                            </svg>Yapay zeka kurtuluş mu? <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-fill duzenleme">
                                                 <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"></path>
                                             </svg></span><span class="link">https://instagram.com/hevalnergiz.css<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-fill duzenleme">
                                                 <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"></path>
@@ -173,14 +175,14 @@
                                 <p style="font-size: 1.5rem;font-family: 'Gilroy-Bold ☞';margin-bottom: 1rem;">Buton Stili</p>
                                 <div class="themes buttonstyle" style="background-color: #ffffff;padding: 1rem;border-radius: 21px;">
                                     <p>Dolgulu</p>
-                                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="margin-bottom: 1rem;">
+                                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="margin-bottom: 1rem;">
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button1-fill.svg"></label></div>
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button2-fill.svg"></label></div>
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button3-fill.svg"></label></div>
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button4-fill.svg"></label></div>
                                     </div>
                                     <p>Çerçeveli</p>
-                                    <div class="row row-cols-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+                                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button1-outline.svg"></label></div>
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button2-outline.svg"></label></div>
                                         <div class="col"><label class="col-form-label"><input type="radio" name="selected-button-style"><img class="img-fluid" src="assets/img/button3-outline.svg"></label></div>

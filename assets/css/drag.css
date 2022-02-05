@@ -1,9 +1,9 @@
-ul {
+.linkler.draggable-list ul {
   position: relative;
   list-style-type: none;
 }
 
-ul li {
+.linkler.draggable-list ul li {
   position: relative;
   -webkit-transition: all 0.1s linear 0.1s;
   -moz-transition: all 0.1s linear 0.1s;
@@ -11,12 +11,12 @@ ul li {
   display: flex;
 }
 
-ul li:before {
+.linkler.draggable-list ul li:before {
   margin: 0 15px 0 0;
   /*content: counter(section);*/
 }
 
-ul li.over {
+.linkler.draggable-list ul li.over {
   transform: scale(0.95);
   border-style: dashed;
   color: transparent;

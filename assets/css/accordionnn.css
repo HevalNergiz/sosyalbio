@@ -8,7 +8,6 @@
   margin: 1rem 0;
   border-radius: 12px!important;
   box-shadow: 6px 6px 16px rgba(174, 174, 192, 0.4), -6px -6px 16px #FFFFFF;
-  overflow-y: visible;
 }
 
 .accordion-header {
@@ -44,7 +43,6 @@
 
 .accordion-button {
   position: relative;
-  display: flex;
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
@@ -82,12 +80,6 @@
 *::before {
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 768px) {
-  #accordion-3 {
-    display: none;
-  }
 }
 
 .tepebaglantilar:hover {
