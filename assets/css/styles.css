@@ -989,7 +989,7 @@ body {
 
 @media (min-width: 768px) {
   .nav-item {
-    margin-left: 2rem;
+    margin-right: 2rem;
   }
 }
 
@@ -1687,7 +1687,7 @@ body {
 }
 
 .hesappanellink {
-  display: none;
+  display: none!important;
   margin-left: 0;
 }
 
