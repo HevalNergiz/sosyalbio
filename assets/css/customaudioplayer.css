@@ -16,7 +16,7 @@
 }
 
 .audio.green-audio-player .play-pause-btn {
-  /*display: none;*/
+  display: none;
   cursor: pointer;
   fill: var(--button-text);
 }

@@ -131,7 +131,7 @@
   color: #fff;
   margin: 8px;
   text-decoration: none !important;
-  width: calc(99vw - 2rem);
+  width: 16rem;
 }
 
 .fab-options .fab-option * {

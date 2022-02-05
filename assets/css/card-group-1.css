@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+  .encokokunanyazarpp {
+    display: none;
+  }
+}
+
+.encokokunanlink {
+}
+
+@media (min-width: 992px) {
+  .enckokunancard {
+    width: 250px;
+    /*padding-bottom: 0.78%!important;*/
+  }
+}
+
+.encokokunanbaslik {
+  font-weight: 600;
+  text-align: left;
+  font-size: 17px;
+  color: #1c1d25;
+  width: 99%;
+}
+
+.encokokunanyazar {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #1C1D25;
+}
+
+.encokokunanyazidiv {
+  padding: 10px;
+  height: clamp(100px, 150px, 500px);
+  display: grid;
+  align-items: center;
+}
+
+.encokkokunancol {
+  border-radius: 15px;
+  padding: 5px;
+  flex: 0 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.encokokunanyazarpp {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.enckokunancard {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px #aeaec029;
+}
+
+.encokokunangorsel {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  width: 100%;
+}
+
+.encokokunanlink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.encokokunanlink:hover {
+  text-decoration: none;
+  color: rgb(28,28,28)!important;
+}
+
+.encokokunanparentgorsel {
+  position: relative;
+}
+
+.bookmarkrenklendirme:hover {
+  color: #eac61c;
+}
+
+.encokokunanbookmark {
+  font-size: 20px;
+}
+
+.encokokunanbookmarklink {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.bookmarkrenklendirme {
+  color: #fbfbfb;
+}
+
+@media (max-width: 768px) {
+  .enckokunancard {
+    max-width: 220px;
+  }
+}
+

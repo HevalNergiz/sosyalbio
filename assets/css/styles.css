@@ -63,6 +63,7 @@ body {
 
 .log-reg-nav .nav-item {
   /*margin-left: 2rem;*/
+  color: #6f6f6f;
 }
 
 .register-button {
@@ -151,6 +152,8 @@ body {
   height: 3rem;
   padding: 0 2rem;
   border-width: 1px;
+  align-items: center;
+  display: inline-flex;
 }
 
 .outline-button:hover {
@@ -692,7 +695,7 @@ body {
   height: 45px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .aboneliktabs {
     max-width: 50%;
   }
@@ -992,13 +995,26 @@ body {
   color: #454d65;
 }
 
-.ozetbaslik {
-  text-align: center;
-  font-family: 'Gilroy-Bold ☞';
-  color: #87a2bd;
-  margin-bottom: 0;
-  font-size: 15px;
-  line-height: 18px;
+@media (min-width: 768px) {
+  .ozetbaslik {
+    text-align: center;
+    font-family: 'Gilroy-Bold ☞';
+    color: #87a2bd;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ozetbaslik {
+    text-align: center;
+    font-family: 'Gilroy-Bold ☞';
+    color: #87a2bd;
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 18px;
+  }
 }
 
 .shadow {
@@ -1050,9 +1066,10 @@ body {
 
 .baglantilarbloktools {
   position: absolute;
-  right: 2rem;
+  right: 1rem;
   display: flex;
   /*width: 4rem;*/
+  top: calc(50% - 13px);
 }
 
 .baglantilarblokgoruntulenme {
@@ -1200,6 +1217,12 @@ body {
 
 #personalpage .container {
   max-width: 800px;
+  padding-top: 3rem;
+  min-height: 100vh;
+  text-align: center;
+  scrollbar-width: thin;
+  ms-scrollbar-width: thin;
+  margin-bottom: 5rem;
 }
 
 .linkbox.button1-fill {
@@ -1418,5 +1441,224 @@ body {
   appearance: none;
   -webkit-print-color-adjust: exact;
   color-adjust: exact;
+}
+
+.kaydıracli {
+  margin: 0 0 3rem 0;
+}
+
+@media (min-width: 992px) {
+  .kaydıracli {
+  }
+}
+
+.baglantilarbloktools .goruntulenmesayisidiv {
+  height: 26px;
+  align-items: center;
+  /*background-color: #ccc;*/
+  padding: 0 0px;
+  position: relative;
+}
+
+.baglantilarbloktools .goruntulenmesayisidiv:hover {
+  cursor: pointer;
+}
+
+.baglantilarblok {
+}
+
+.goruntulenmesayisidiv .eye {
+  margin-right: .3rem;
+}
+
+.goruntulenmesayisidata {
+  font-size: .8rem;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.goruntulenmesayisi {
+  top: -1.5rem;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Gilroy-Light ☞';
+  padding: .2rem .3rem;
+  left: -.5rem;
+  background-color: #e4e4e4;
+  color: #4f4f4f;
+  border-radius: 7px;
+}
+
+.onizlemecontent .tepebaglantilar {
+  color: var(--adsoyad-color);
+  text-decoration: none;
+  margin: 0 0.3rem;
+  align-items: center;
+  display: grid;
+}
+
+.tepebaglantilar {
+  color: var(--adsoyad-color);
+  text-decoration: none;
+  margin: 0 .5rem;
+  align-items: center;
+  display: grid;
+}
+
+#accordion-1 .accordion-button {
+  background-color: #fbfbfb!important;
+}
+
+#accordion-1 .accordion-item, #accordion-1 .accordion-collapse.collapse, #accordion-1 .accordion-header {
+  background-color: rgba(255,255,255,0)!important;
+  box-shadow: none;
+}
+
+.linkeklemeformu .form-control {
+  background-color: #e7e7e7;
+}
+
+@media (min-width: 768px) {
+  .anasayfakisim .aciklama {
+    max-width: 60%;
+  }
+}
+
+.whatsappfloating {
+  color: #ffffff;
+  transform: rotate(-16deg);
+}
+
+.onizlemecontent .linkbox.youtubebox {
+  border: none;
+}
+
+.linkbox.button3-fill.youtubecol {
+  border-radius: 30px 30px 0 0;
+}
+
+.linkbox.youtubecol h6 {
+  padding: .5rem 0;
+  margin-bottom: 0;
+}
+
+.linkbox .audio {
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.onizlemecontent .linkbox.audiobox {
+  height: 5.5rem;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 0;
+  display: grid;
+  align-items: start;
+}
+
+.linkbox.button3-fill.audiobox {
+  border-radius: 30px;
+}
+
+.onizlemecontent .linkboxbaslik.fiyatı {
+  font-size: 1rem;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.linkboxbaslik .fiyatı {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.onizlemecontent .linkboxbaslik.baslikk {
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 1rem;
+}
+
+.urunbox .alisverisicon {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  color: var(--bs-success);
+}
+
+.urunbox .cash {
+  position: absolute;
+  top: 13px;
+  left: .5rem;
+}
+
+.buttonplus {
+  position: absolute;
+  left: 1rem;
+  top: calc(51% - 8px);
+}
+
+.linkeklemeformu .btn {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.accordion-button:not(.collapsed) {
+  border-radius: 1rem 1rem 0 0!important;
+}
+
+#accordion-1 .accordion-button:not(.collapsed) {
+  border-radius: 1rem!important;
+  background-color: #fbfbfb!important;
+}
+
+.modal-body {
+  overflow-x: hidden;
+}
+
+.forprofileimage input[type="file"] {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .asilyazibolumu {
+    padding: 35px 25px 25px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .asilyazibolumu2 {
+    padding: 35px 25px 25px 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  .asilyazibolumu {
+    padding: 6px 100px 100px 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .asilyazibolumu2 {
+    padding: 57px 100px 100px 100px;
+  }
+}
+
+.yazi h2 {
+  font-family: 'Gilroy-Bold ☞';
+  margin-top: 2rem;
+}
+
+.yazi h3 {
+  font-family: 'Gilroy-Bold ☞';
+  margin-top: 2rem;
+}
+
+.hesappanellink {
+  display: none;
+  margin-left: 0;
+}
+
+.logged .hesappanellink {
+  display: flex;
+  margin-left: 2rem;
+}
+
+.transparentfooter .footer-basic {
+  background: none;
 }
 

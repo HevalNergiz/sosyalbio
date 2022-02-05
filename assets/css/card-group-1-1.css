@@ -1,0 +1,238 @@
+@media (max-width: 768px) {
+  .encokokunanyazarpp {
+    display: none;
+  }
+}
+
+.encokokunanlink {
+}
+
+@media (min-width: 992px) {
+  .enckokunancard {
+    width: 250px;
+    /*padding-bottom: 0.78%!important;*/
+  }
+}
+
+.encokokunanbaslik {
+  font-weight: 800;
+  text-align: left;
+  font-size: 17px;
+  color: #1c1d25;
+  width: 99%;
+  font-family: 'Gilroy-Light ☞';
+}
+
+.encokokunanyazar {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: left;
+  color: #1C1D25;
+}
+
+.encokokunanyazidiv {
+  padding: 10px;
+  /*height: clamp(100px, 150px, 500px);*/
+  display: grid;
+  align-items: center;
+}
+
+.encokkokunancol {
+  border-radius: 15px;
+  padding: 5px;
+  flex: 0 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.encokokunanyazarpp {
+  width: 30px;
+  margin-right: 8px;
+}
+
+.enckokunancard {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 10px 30px #aeaec029;
+}
+
+.encokokunangorsel {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  width: 100%;
+}
+
+.encokokunanlink {
+  text-decoration: none;
+  color: #000000;
+}
+
+.encokokunanlink:hover {
+  text-decoration: none;
+  color: rgb(28,28,28)!important;
+}
+
+.encokokunanparentgorsel {
+  position: relative;
+}
+
+.bookmarkrenklendirme:hover {
+  color: #eac61c;
+}
+
+.encokokunanbookmark {
+  font-size: 20px;
+}
+
+.encokokunanbookmarklink {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.bookmarkrenklendirme {
+  color: #fbfbfb;
+}
+
+@media (max-width: 768px) {
+  .enckokunancard {
+    max-width: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+  .anasayfakisim .aciklama {
+    max-width: 60%;
+  }
+}
+
+.whatsappfloating {
+  color: #ffffff;
+  transform: rotate(-16deg);
+}
+
+.onizlemecontent .linkbox.youtubebox {
+  border: none;
+}
+
+.linkbox.button3-fill.youtubecol {
+  border-radius: 30px 30px 0 0;
+}
+
+.linkbox.youtubecol h6 {
+  padding: .5rem 0;
+  margin-bottom: 0;
+}
+
+.linkbox .audio {
+  width: 100%;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.onizlemecontent .linkbox.audiobox {
+  height: 5.5rem;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 0;
+  display: grid;
+  align-items: start;
+}
+
+.linkbox.button3-fill.audiobox {
+  border-radius: 30px;
+}
+
+.onizlemecontent .linkboxbaslik.fiyatı {
+  font-size: 1rem;
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.linkboxbaslik .fiyatı {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.onizlemecontent .linkboxbaslik.baslikk {
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 1rem;
+}
+
+.urunbox .alisverisicon {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  color: var(--bs-success);
+}
+
+.urunbox .cash {
+  position: absolute;
+  top: 13px;
+  left: .5rem;
+}
+
+.buttonplus {
+  position: absolute;
+  left: 1rem;
+  top: calc(51% - 8px);
+}
+
+.linkeklemeformu .btn {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.accordion-button:not(.collapsed) {
+  border-radius: 1rem 1rem 0 0!important;
+}
+
+#accordion-1 .accordion-button:not(.collapsed) {
+  border-radius: 1rem!important;
+  background-color: #fbfbfb!important;
+}
+
+.linkeklemeformu .form-control {
+  background-color: #e7e7e7;
+}
+
+.modal-body {
+  overflow-x: hidden;
+}
+
+#accordion-1 .accordion-item, #accordion-1 .accordion-collapse.collapse, #accordion-1 .accordion-header {
+  background-color: rgba(255,255,255,0)!important;
+  box-shadow: none;
+}
+
+#accordion-1 .accordion-button {
+  background-color: #fbfbfb!important;
+}
+
+.tepebaglantilar {
+  color: var(--adsoyad-color);
+  text-decoration: none;
+  margin: 0 .5rem;
+  align-items: center;
+  display: grid;
+}
+
+.onizlemecontent .tepebaglantilar {
+  color: var(--adsoyad-color);
+  text-decoration: none;
+  margin: 0 0.3rem;
+  align-items: center;
+  display: grid;
+}
+
+.forprofileimage input[type="file"] {
+  display: none;
+}
+
+.encokokunanyazidiv .yazidetail {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.yazidetail {
+  color: #4f575a;
+}
+

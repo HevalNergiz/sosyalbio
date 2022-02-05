@@ -109,3 +109,130 @@
 .linkboxbaslik {
 }
 
+.baglantilarbloktools .switch {
+  margin-left: 1rem;
+}
+
+.baglantilarbloktools.mobildegorun .switch {
+  margin-left: 0;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-item {
+  font-family: 'Gilroy-Bold ☞';
+  height: 32px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu.show {
+  min-width: 0;
+  border-radius: 10px;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.03)!important;
+  background-color: #ffffff;
+  left: -20px;
+}
+
+.baglantilarbloktools.mobildegorun .btn {
+  background: none;
+  color: #323232;
+  border: none;
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+
+.baglantilarbloktools .mobildegorun .dropdown-item .goruntulenmesayisi {
+  background: none;
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-item:hover, .baglantilarbloktools.mobildegorun .dropdown-item:focus {
+  background-color: #ffffff;
+}
+
+.baglantilarbloktools.mobildegorun {
+  top: calc(50% - 21px);
+}
+
+.baglantilarbloktools.mobildegorun .dropdown-menu::before {
+  /*width: 1rem;*/
+  /*height: 1rem;*/
+  display: flex;
+  /*background-color: #212529;*/
+  content: "";
+  top: -8px;
+  right: calc(50% - -12px);
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #d8d8d8;
+}
+
+@media (min-width: 576px) {
+  .baglantilarbloktools.mobildegorun {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .baglantilarbloktools.mobildegorun {
+    display: flex;
+  }
+}
+
+.baglantilarbloktools .sil {
+  margin-left: 1rem;
+}
+
+.baglantilarbloktools .sil:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .baglantilarbloktools {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .ozetcol.qrcoll {
+    border-width: 0;
+  }
+}
+
+.logged .outline-button.log-reg-button {
+  display: none;
+}
+
+.hesapdropdownu .hesappanellink {
+  display: none;
+}
+
+.siparisozeti {
+  margin-bottom: 0;
+}
+
+.siparisozetiicerik {
+  font-family: 'Gilroy-Bold ☞';
+}
+
+.enonecikancol h3:hover {
+}
+
+.buyukcardrow {
+  box-shadow: 0px 10px 30px #aeaec029;
+}
+
+.buyukcardlink:hover {
+  text-decoration: underline;
+  color: #212529;
+}
+
+.buyukcardlink {
+  text-decoration: none;
+}
+
