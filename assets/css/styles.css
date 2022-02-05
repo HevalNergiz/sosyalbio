@@ -1362,7 +1362,15 @@ body {
 
 @media (min-width: 1200px) {
   .onizlemepadding {
-    padding: 2rem 20%;
+    padding: 2rem 6vw;
+    align-items: top;
+    position: relative;
+  }
+}
+
+@media (min-height: 800px) and (min-width: 1200px) {
+  .onizlemepadding {
+    padding: 6rem 4vh 0 4vh!important;
     align-items: top;
     position: relative;
   }
