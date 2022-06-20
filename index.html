@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>social.bio (Backup 1644060287289)</title>
+    <title>social.bioson</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Gilroy-Bold%20☞.css">
     <link rel="stylesheet" href="assets/css/Gilroy-Light%20☞.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/type-heading-animated.css">
     <link rel="stylesheet" href="assets/css/accordionnn.css">
     <link rel="stylesheet" href="assets/css/backgrounds.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/card-group-1.css">
     <link rel="stylesheet" href="assets/css/color-picker.css">
     <link rel="stylesheet" href="assets/css/cursor.css">
@@ -30,6 +31,7 @@
     <link rel="stylesheet" href="assets/css/hareketli-openbutton.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/new-color-picker.css">
     <link rel="stylesheet" href="assets/css/okudumonayliyorum.css">
     <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css">
@@ -38,30 +40,38 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
-<body style="font-family: 'Gilroy-Light ☞';overflow-x: hidden;scrollbar-width: thin;">
-    <div class="container">
-        <header>
+<body class="homepage" style="font-family: 'Gilroy-Light ☞';overflow-x: hidden;scrollbar-width: thin;">
+    <header>
+        <div class="container">
             <nav class="navbar navbar-light navbar-expand-md">
-                <div class="container-fluid"><a class="navbar-brand" href="#"><img class="logo" src="assets/img/1t.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="container-fluid"><a class="navbar-brand" href="#" style="filter: invert(0%);"><img class="logo normal" src="assets/img/1t.png"><img class="logo beyaz" src="assets/img/2t.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="navbar-nav flex-grow-1 justify-content-center" style="font-family: 'Gilroy-Bold ☞';padding-left: 1rem;">
+                            <li class="nav-item" style="display: flex;justify-content: space-around;"><a class="nav-link" href="#">Özellikler</a></li>
                             <li class="nav-item" style="display: flex;justify-content: space-around;"><a class="nav-link" href="#">Blog</a></li>
                             <li class="nav-item" style="display: flex;justify-content: space-around;"><a class="nav-link" href="#">Fiyatlandırma</a></li>
                         </ul>
-                        <ul class="navbar-nav flex-grow-0 justify-content-end log-reg-nav">
-                            <li class="nav-item" style="display: flex;justify-content: space-around;"><button class="btn btn-link outline-button log-reg-button" type="button">Giriş Yap</button></li>
-                            <li class="nav-item hesappanellink"><a class="nav-link" href="adminpanel.html" style="font-family: 'Gilroy-Bold ☞';">Panele Git</a></li>
-                            <li class="nav-item hesapdropdownu hesappanellink">
-                                <div class="nav-item dropdown" style="display: grid;align-items: center;/*margin-right: .7rem;*/margin-left: .2rem;"><a class="dropdown-toggle d-lg-flex align-items-lg-center" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="font-size: 0.7rem;text-decoration: none;color: #6f6f6f;"><span style="font-family: 'Gilroy-Bold ☞';font-size: 1.1rem;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill" style="font-size: 1.3rem;">
+                        <ul class="navbar-nav flex-grow-0 hesappanel-nav mobildeortalanacak">
+                            <li class="nav-item"><a class="nav-link" href="#">Panele Git</a></li>
+                            <li class="nav-item">
+                                <div class="nav-item dropdown" style="display: grid;align-items: center;/*margin-right: .7rem;*/margin-left: .2rem;text-align: center;justify-content: center;"><a class="dropdown-toggle d-lg-flex align-items-lg-center" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill" style="font-size: 1.3rem;">
                                                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
                                             </svg>&nbsp;Hesap&nbsp;</span></a>
-                                    <div class="dropdown-menu" style="border: none;border-radius: 10px;font-family: 'Gilroy-Light ☞';"><a class="dropdown-item" href="#">Hesap Bilgileri</a><a class="dropdown-item" href="#">Paket Bilgileri</a><a class="dropdown-item" href="#">Çıkış Yap</a></div>
+                                    <div class="dropdown-menu" style="border: none;border-radius: 10px;font-family: 'Gilroy-Light ☞';max-width: 40px;"><a class="dropdown-item" href="#">Hesap Ayarları</a><a class="dropdown-item" href="#">Paket Bilgileri</a><a class="dropdown-item" href="#">Çıkış Yap</a></div>
                                 </div>
                             </li>
+                        </ul>
+                        <ul class="navbar-nav flex-grow-0 justify-content-end log-reg-nav">
+                            <li class="nav-item" style="display: flex;justify-content: space-around;"><button class="btn btn-primary pinkbutton outlined" type="button">Giriş Yap</button></li>
+                            <li class="nav-item" style="display: flex;justify-content: space-around;"><button class="btn btn-primary pinkbutton" type="button">Kayıt Ol</button></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
             <div>
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" style="margin: 0;">
                     <div class="col d-flex d-xl-flex align-items-center align-items-xl-center headerleftdiv" style="min-width: 55%;position: relative;">
@@ -70,7 +80,7 @@
                             <h5 style="font-weight: 400;line-height: 30px;"><strong>Tek bir linkle</strong> kendinize <strong>özel web sayfanızı</strong> oluşturun, bağlantılarınızı ve içeriklerinizi kitlenizle <strong>paylaşın.</strong><br></h5>
                             <div style="max-width: 80px;height: 8px;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;margin-top: 2rem;margin-bottom: 1rem;"></div>
                             <form class="headerform"><input class="form-control" type="text" placeholder="Kullanıcı adı belirleyin"><input class="form-control" type="text" placeholder="e-mail">
-                                <div class="d-flex justify-content-between headerbuttons" style="margin-top: 2.5rem;"><button class="btn btn-primary register-button" type="button" style="border-width: 1px;height: 3.5rem;border-radius: 10px;">Hesap Oluşturun</button></div>
+                                <div class="d-flex justify-content-between headerbuttons" style="margin-top: 2.5rem;"><button class="btn btn-primary pinkbutton gradient" type="button" style="border-width: 1px;height: 3.5rem;border-radius: 10px;">Hesap Oluşturun</button></div>
                             </form>
                         </div>
                     </div>
@@ -86,15 +96,14 @@
                     </div>
                 </div>
             </div>
-        </header>
-    </div>
-    <div style="text-align: center;margin-top: 4rem;"><img class="img-fluid" src="assets/img/wave.svg" style="min-width: 100%;"></div>
-    <div style="background-color: #fff;padding-top: 3rem;padding-bottom: 4rem;">
-        <div class="container">
-            <div class="animatedtyping" style="margin-bottom: 4rem;">
-                <div class="animatedd"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="searchicon">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z" fill="currentColor"></path>
-                    </svg>				<div class="caption v-middle text-left">
+        </div>
+        <div style="text-align: center;margin-top: 4rem;"><img class="img-fluid" src="assets/img/wave.svg" style="min-width: 100%;"></div>
+        <div style="background-color: #fff;padding-top: 3rem;padding-bottom: 4rem;">
+            <div class="container">
+                <div class="animatedtyping" style="margin-bottom: 4rem;">
+                    <div class="animatedd"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="searchicon">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.319 14.4326C20.7628 11.2941 20.542 6.75347 17.6569 3.86829C14.5327 0.744098 9.46734 0.744098 6.34315 3.86829C3.21895 6.99249 3.21895 12.0578 6.34315 15.182C9.22833 18.0672 13.769 18.2879 16.9075 15.8442C16.921 15.8595 16.9351 15.8745 16.9497 15.8891L21.1924 20.1317C21.5829 20.5223 22.2161 20.5223 22.6066 20.1317C22.9971 19.7412 22.9971 19.1081 22.6066 18.7175L18.364 14.4749C18.3493 14.4603 18.3343 14.4462 18.319 14.4326ZM16.2426 5.28251C18.5858 7.62565 18.5858 11.4246 16.2426 13.7678C13.8995 16.1109 10.1005 16.1109 7.75736 13.7678C5.41421 11.4246 5.41421 7.62565 7.75736 5.28251C10.1005 2.93936 13.8995 2.93936 16.2426 5.28251Z" fill="currentColor"></path>
+                        </svg>				<div class="caption v-middle text-left">
 					<h1 class="cd-headline clip">
 			            <span class="blc">sosyal.bio/ </span>
 			            <span class="cd-words-wrapper">
@@ -104,312 +113,312 @@
 			            </span>
 	          		</h1>
 				</div></div>
-            </div>
-        </div>
-        <div class="container anasayfakisim">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
-                <div class="col animationcol" style="overflow-y: visible;">
-                    <div data-aos="fade-up" data-aos-duration="550" class="animatedcardsdiv"><img class="animatedcards floating" src="assets/img/snap-card.svg" style="position: absolute;top: 1rem;left: 10%;"><img class="animatedcards floating insta" src="assets/img/instagram-card.svg"><img class="animatedcards floating linkednn" src="assets/img/linkedin-card.svg"></div>
-                </div>
-                <div class="col" style="display: grid;align-items: center;">
-                    <div>
-                        <h1 data-aos="fade-left" data-aos-duration="550" style="font-weight: 800;margin-bottom: 1rem;font-family: 'Gilroy-Bold ☞';">Tüm platformlarda özgürce kullanın.<br></h1>
-                        <div data-aos="fade-left" data-aos-duration="600" style="max-width: 60px;height: 9px;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;margin-bottom: 2rem;"></div>
-                        <h5 data-aos="fade-left" data-aos-duration="650" style="font-weight: 400;line-height: 40px;">Tüm önemli içeriğinizi <strong>keşfetmelerine </strong>yardımcı olmak için Sosyal.bio hedef kitlenizin olduğu <strong>tüm platformlarda</strong> <strong>bionuza</strong> ekleyin dilediğiniz gibi paylaşın.<br></h5>
-                    </div>
                 </div>
             </div>
-        </div>
-        <div class="container anasayfakisim">
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
-                <div class="col" style="display: grid;align-items: center;">
-                    <div>
-                        <h1 data-aos="fade-left" data-aos-duration="550" style="font-weight: 800;margin-bottom: 1rem;font-family: 'Gilroy-Bold ☞';">Ne dilerseniz paylaşın, geride kalmayın!</h1>
-                        <div data-aos="fade-left" data-aos-duration="600" style="max-width: 60px;height: 9px;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;margin-bottom: 2rem;"></div>
-                        <h5 data-aos="fade-left" data-aos-duration="650" style="font-weight: 400;line-height: 33px;">Video, podcast, yazı, etkinlik, toplantı...<br><strong>Kitlenize</strong> ulaştırmak istediğiniz<strong> her şeyi</strong> tek <strong>bir linkle</strong> ulaştırın. Trafiği <strong>kontrolünüze</strong> alın.</h5>
+            <div class="container anasayfakisim">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+                    <div class="col animationcol" style="overflow-y: visible;">
+                        <div data-aos="fade-up" data-aos-duration="550" class="animatedcardsdiv"><img class="animatedcards floating" src="assets/img/snap-card.svg" style="position: absolute;top: 1rem;left: 10%;"><img class="animatedcards floating insta" src="assets/img/instagram-card.svg"><img class="animatedcards floating linkednn" src="assets/img/linkedin-card.svg"></div>
                     </div>
-                </div>
-                <div class="col order-first order-sm-first order-md-first order-lg-last order-xl-last order-xxl-last animationcol" style="overflow-y: visible;">
-                    <div data-aos="fade-up" data-aos-duration="550" class="animatedcardsdiv"><img class="animatedcards floating-yatay" src="assets/img/meeting.svg" style="position: absolute;top: 1rem;left: 10%;animation-delay: 1s;"><img class="animatedcards floating-yatay etkinlik" src="assets/img/etkinlik.svg" style="animation-delay: .75s;"><img class="animatedcards floating-yatay store" src="assets/img/store.svg" style="animation-delay: .5s;"><img class="animatedcards floating-yatay podcast" src="assets/img/podcast.svg"></div>
-                </div>
-            </div>
-        </div>
-        <div class="container pricingpage anasayfakisim">
-            <h1 class="containerheading">Ödeme Planları</h1>
-            <div>
-                <ul class="nav nav-tabs aboneliktabs" role="tablist" style="justify-content: center;margin-bottom: 3rem;background: rgba(242,244,248,0);display: flex;justify-content: space-evenly;border: none;border-radius: 1rem;height: 3rem;align-items: center;margin-left: auto;margin-right: auto;border-style: solid;border-width: 1px;border-color: #ff0049;">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Aylık Abonelik</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Yıllık Abonelik</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="tab-1">
-                        <div class="pricingplan">
-                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 align-items-start" style="border-radius: 25px;margin-bottom: 1rem;">
-                                <div class="col" data-aos="fade-up" data-aos-duration="600">
-                                    <div class="neumorphic onecikan" style="background: linear-gradient(-144deg, #ff0049, #ff0099);position: relative;">
-                                        <div style="position: absolute;top: -11px;height: 2rem;width: 9rem;background-color: #ff8976;border-radius: 1rem;right: 1rem;text-align: center;display: grid;align-items: center;"><span style="font-family: 'Gilroy-Bold ☞';color: #ffffff;">Tavsiye Edilen</span></div>
-                                        <div>
-                                            <h1 class="price">9.99TL<span style="color: #efefef;font-size: 25px;">&nbsp;/ay</span></h1>
-                                            <h4 class="planname" style="color: #ffffff;">PRO Üyelik</h4>
-                                            <p class="description" style="color: #efefef;">Sosyal.bio özelliklerini sonuna kadar kullanırken hayvanlara da destek olmak isteyenlere.<br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız </strong>Biyolink Sayfaları</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> Biyolink Sayfaları<br></li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız </strong>Kısaltılmış Linkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> Projeler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> QR Codes</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>120 Gün İstatistik Saklama</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Özel Renkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Özel Arkaplan</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Sosyal.bio logosu gizleme</li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">PRO'lara katılın</button></div>
-                                    </div>
-                                </div>
-                                <div class="col" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="neumorphic" style="position: relative;height: 100%;">
-                                        <div>
-                                            <h1 class="price">0TL<span style="color: #c2cacf;font-size: 25px;">&nbsp;/ay</span></h1>
-                                            <h4 class="planname">Ücretsiz Üyelik</h4>
-                                            <p class="description">Sosyal.bio'ya hızlı bir başlangıç için her şey sonsuza dek ücretsiz.<br><br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Biyolink Sayfaları</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Kısaltılmış Linkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Projeler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 QR Codes</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>30 Gün İstatistik Saklama</li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">Bu Planı Seç</button></div>
-                                    </div>
-                                </div>
-                                <div class="col" data-aos="fade-up" data-aos-duration="800">
-                                    <div class="neumorphic">
-                                        <div>
-                                            <h1 class="price">Teklif Alın<span style="color: #c2cacf;font-size: 25px;">&nbsp;/ay</span></h1>
-                                            <h4 class="planname">Kurumsal Üyelik</h4>
-                                            <p class="description">Kurumsal üyelerimize özel benzersiz Sosyal.bio paketi.<br><br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Her şey özelleştirilebilir.</li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">Teklif Alın</button></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab-2">
-                        <div class="pricingplan">
-                            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 align-items-start" style="border-radius: 25px;margin-bottom: 1rem;">
-                                <div class="col" data-aos="fade-up" data-aos-duration="600">
-                                    <div class="neumorphic onecikan" style="background: linear-gradient(-144deg, #ff0049, #ff0099);position: relative;">
-                                        <div style="position: absolute;top: -11px;height: 2rem;width: 9rem;background-color: #ff8976;border-radius: 1rem;right: 1rem;text-align: center;display: grid;align-items: center;"><span style="font-family: 'Gilroy-Bold ☞';color: #ffffff;">Tavsiye Edilen</span></div>
-                                        <div>
-                                            <h1 class="price">99.9TL<span style="color: #efefef;font-size: 25px;">&nbsp;/yıl</span></h1>
-                                            <h4 class="planname" style="color: #ffffff;">PRO Üyelik</h4>
-                                            <p class="description" style="color: #efefef;">Sosyal.bio özelliklerini sonuna kadar kullanırken hayvanlara da destek olmak isteyenlere.<br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız </strong>Biyolink Sayfaları</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> Biyolink Sayfaları<br></li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız </strong>Kısaltılmış Linkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> Projeler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg><strong>Sınırsız</strong> QR Codes</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>120 Gün İstatistik Saklama</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Özel Renkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Özel Arkaplan</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Sosyal.bio logosu gizleme</li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">PRO'lara katılın</button></div>
-                                    </div>
-                                </div>
-                                <div class="col" data-aos="fade-up" data-aos-duration="700">
-                                    <div class="neumorphic" style="position: relative;height: 100%;">
-                                        <div>
-                                            <h1 class="price">0TL<span style="color: #c2cacf;font-size: 25px;">&nbsp;/yıl</span></h1>
-                                            <h4 class="planname">Ücretsiz Üyelik</h4>
-                                            <p class="description">Sosyal.bio'ya hızlı bir başlangıç için her şey sonsuza dek ücretsiz.<br><br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Biyolink Sayfaları</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Kısaltılmış Linkler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 Projeler</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>1 QR Codes</li>
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>30 Gün İstatistik Saklama</li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">Bu Planı Seç</button></div>
-                                    </div>
-                                </div>
-                                <div class="col" data-aos="fade-up" data-aos-duration="800">
-                                    <div class="neumorphic">
-                                        <div>
-                                            <h1 class="price">Teklif Alın<span style="color: #c2cacf;font-size: 25px;">&nbsp;/yıl</span></h1>
-                                            <h4 class="planname">Kurumsal Üyelik</h4>
-                                            <p class="description">Kurumsal üyelerimize özel benzersiz Sosyal.bio paketi.<br><br></p>
-                                        </div>
-                                        <ul class="list-unstyled">
-                                            <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
-                                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
-                                                </svg>Her şey özelleştirilebilir.</li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                            <li class="bos"></li>
-                                        </ul>
-                                        <div class="planisec"><button class="btn btn-primary" type="button">Teklif Alın</button></div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="col" style="display: grid;align-items: center;">
+                        <div>
+                            <h1 data-aos="fade-left" data-aos-duration="550" style="font-weight: 800;margin-bottom: 1rem;font-family: 'Gilroy-Bold ☞';">Tüm platformlarda özgürce kullanın.<br></h1>
+                            <div data-aos="fade-left" data-aos-duration="600" style="max-width: 60px;height: 9px;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;margin-bottom: 2rem;"></div>
+                            <h5 data-aos="fade-left" data-aos-duration="650" style="font-weight: 400;line-height: 40px;">Tüm önemli içeriğinizi <strong>keşfetmelerine </strong>yardımcı olmak için Sosyal.bio hedef kitlenizin olduğu <strong>tüm platformlarda</strong> <strong>bionuza</strong> ekleyin dilediğiniz gibi paylaşın.<br></h5>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container anasayfakisim features" style="margin-top: 10rem;overflow-x: hidden;">
-            <h1 style="text-align: center;margin-bottom: 0rem;font-family: 'Gilroy-Medium ☞';">İşte karşınızda sosyal.bio</h1>
-            <p class="aciklama" style="text-align: center;">Sosyal.bio ihtiyacınız olan tüm araç gereçleri ve özellikleri size tek tıkla sunuyor. Ödeme alabilir, istatistikleri görüntüleyebilir ve sayfanızı istediğiniz gibi özelleştirebilirsiniz.</p>
-            <div style="height: .5rem;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;max-width: 25%;margin: 1rem auto 2rem auto;"></div>
-            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3" style="/*overflow-x: hidden;*//*scrollbar-width: hidden;*/">
-                <div class="col" data-aos="zoom-out-left" data-aos-duration="600"><img class="img-fluid" src="assets/img/features1.webp">
-                    <h2 class="baslik">Sayfanı Özelleştir</h2>
-                    <p>Gelişmiş arayüzü ve Türkçe dil desteğiyle sosyal.bio sayfanı dilediğin gibi özelleştir. Tasarımın sana özel olsun.</p>
-                </div>
-                <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="50"><img class="img-fluid" src="assets/img/features2.webp">
-                    <h2 class="baslik">Analizleri Toplayın</h2>
-                    <p>Sosyal.bio sayfanızın istatistiklerini toplayın. Görüntülenmeleri ve tıklanmaları görün stratejinizi geliştirin</p>
-                </div>
-                <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="100"><img class="img-fluid" src="assets/img/features3.webp">
-                    <h2 class="baslik">Ödemelerinizi Alın</h2>
-                    <p>Sosyal.bio profilinizle Shopier alt yapısıyla güvenli bir şekilde takipçilerinizden bağış toplayabilirsiniz.</p>
+            <div class="container anasayfakisim">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2">
+                    <div class="col" style="display: grid;align-items: center;">
+                        <div>
+                            <h1 data-aos="fade-left" data-aos-duration="550" style="font-weight: 800;margin-bottom: 1rem;font-family: 'Gilroy-Bold ☞';">Ne dilerseniz paylaşın, geride kalmayın!</h1>
+                            <div data-aos="fade-left" data-aos-duration="600" style="max-width: 60px;height: 9px;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;margin-bottom: 2rem;"></div>
+                            <h5 data-aos="fade-left" data-aos-duration="650" style="font-weight: 400;line-height: 33px;">Video, podcast, yazı, etkinlik, toplantı...<br><strong>Kitlenize</strong> ulaştırmak istediğiniz<strong> her şeyi</strong> tek <strong>bir linkle</strong> ulaştırın. Trafiği <strong>kontrolünüze</strong> alın.</h5>
+                        </div>
+                    </div>
+                    <div class="col order-first order-sm-first order-md-first order-lg-last order-xl-last order-xxl-last animationcol" style="overflow-y: visible;">
+                        <div data-aos="fade-up" data-aos-duration="550" class="animatedcardsdiv"><img class="animatedcards floating-yatay" src="assets/img/meeting.svg" style="position: absolute;top: 1rem;left: 10%;animation-delay: 1s;"><img class="animatedcards floating-yatay etkinlik" src="assets/img/etkinlik.svg" style="animation-delay: .75s;"><img class="animatedcards floating-yatay store" src="assets/img/store.svg" style="animation-delay: .5s;"><img class="animatedcards floating-yatay podcast" src="assets/img/podcast.svg"></div>
+                    </div>
                 </div>
             </div>
-            <div style="text-align: center;"><button class="btn btn-light outline-button" type="button">Tüm Özellikleri Keşfedin ve Ücretsiz Deneyin</button></div>
-        </div>
-        <div class="container anasayfakisim">
-            <h1 style="text-align: center;margin-bottom: 0rem;font-family: 'Gilroy-Medium ☞';">Blog</h1>
-            <p class="aciklama" style="text-align: center;">Kitleyle iletişim nasıl olmalı? İçeriklerimizin daha fazla görüntülenmesi için ne yapmalı? Platformlar hakkında güncel haberler ve dahası. Blog sayfamızda!</p>
-            <div style="height: .5rem;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;max-width: 25%;margin: 1rem auto 2rem auto;"></div>
-            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4" style="/*margin: 0;*/margin-bottom: 2rem;">
-                <div class="col d-flex d-xl-flex justify-content-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="750"><a class="encokokunanlink" href="#">
-                        <div class="enckokunancard">
-                            <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost1.jpg"></div>
-                            <div class="encokokunanyazidiv">
-                                <h6 class="d-flex encokokunanbaslik">Sosyal medya platformlarının yeni algoritmaları nasıl çalışıyor.</h6>
-                                <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Furkan Kalay</p>
+            <div class="container pricingpage anasayfakisim">
+                <h1 class="containerheading">Ödeme Planları</h1>
+                <div>
+                    <ul class="nav nav-tabs aboneliktabs" role="tablist" style="justify-content: center;margin-bottom: 3rem;background: rgba(242,244,248,0);display: flex;justify-content: space-evenly;border: none;border-radius: 1rem;height: 3rem;align-items: center;margin-left: auto;margin-right: auto;border-style: solid;border-width: 1px;border-color: #ff0049;">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" href="#tab-1">Aylık Abonelik</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" href="#tab-2">Yıllık Abonelik</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" role="tabpanel" id="tab-1">
+                            <div class="pricingplan">
+                                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 align-items-start" style="border-radius: 25px;margin-bottom: 1rem;">
+                                    <div class="col" data-aos="fade-up" data-aos-duration="600">
+                                        <div class="neumorphic onecikan" style="background: linear-gradient(-144deg, #ff0049, #ff0099);position: relative;">
+                                            <div style="position: absolute;top: -11px;height: 2rem;width: 9rem;background-color: #ff8976;border-radius: 1rem;right: 1rem;text-align: center;display: grid;align-items: center;"><span style="font-family: 'Gilroy-Bold ☞';color: #ffffff;">Tavsiye Edilen</span></div>
+                                            <div>
+                                                <h1 class="price">9.99TL<span style="color: #efefef;font-size: 25px;">&nbsp;/ay</span></h1>
+                                                <h4 class="planname" style="color: #ffffff;">PRO Üyelik</h4>
+                                                <p class="description" style="color: #efefef;">Sosyal.bio özelliklerini sonuna kadar kullanırken hayvanlara da destek olmak isteyenlere.<br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız </strong>Biyolink Sayfaları</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> Biyolink Sayfaları<br></li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız </strong>Kısaltılmış Linkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> Projeler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> QR Codes</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>120 Gün İstatistik Saklama</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Özel Renkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Özel Arkaplan</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Sosyal.bio logosu gizleme</li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">PRO'lara katılın</button></div>
+                                        </div>
+                                    </div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="700">
+                                        <div class="neumorphic" style="position: relative;height: 100%;">
+                                            <div>
+                                                <h1 class="price">0TL<span style="color: #c2cacf;font-size: 25px;">&nbsp;/ay</span></h1>
+                                                <h4 class="planname">Ücretsiz Üyelik</h4>
+                                                <p class="description">Sosyal.bio'ya hızlı bir başlangıç için her şey sonsuza dek ücretsiz.<br><br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Biyolink Sayfaları</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Kısaltılmış Linkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Projeler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 QR Codes</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>30 Gün İstatistik Saklama</li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">Bu Planı Seç</button></div>
+                                        </div>
+                                    </div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="800">
+                                        <div class="neumorphic">
+                                            <div>
+                                                <h1 class="price">Teklif Alın<span style="color: #c2cacf;font-size: 25px;">&nbsp;/ay</span></h1>
+                                                <h4 class="planname">Kurumsal Üyelik</h4>
+                                                <p class="description">Kurumsal üyelerimize özel benzersiz Sosyal.bio paketi.<br><br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Her şey özelleştirilebilir.</li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">Teklif Alın</button></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </a></div>
-                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="800" data-aos-delay="50"><a class="encokokunanlink" href="#">
-                        <div class="enckokunancard">
-                            <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost2.jpg"></div>
-                            <div class="encokokunanyazidiv">
-                                <h6 class="d-flex encokokunanbaslik">Hesaplarımızını ve kişisel markamızı nasıl daha iyi bir noktaya taşıyabiliriz?</h6>
-                                <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Emre Göler</p>
+                        <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <div class="pricingplan">
+                                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3 align-items-start" style="border-radius: 25px;margin-bottom: 1rem;">
+                                    <div class="col" data-aos="fade-up" data-aos-duration="600">
+                                        <div class="neumorphic onecikan" style="background: linear-gradient(-144deg, #ff0049, #ff0099);position: relative;">
+                                            <div style="position: absolute;top: -11px;height: 2rem;width: 9rem;background-color: #ff8976;border-radius: 1rem;right: 1rem;text-align: center;display: grid;align-items: center;"><span style="font-family: 'Gilroy-Bold ☞';color: #ffffff;">Tavsiye Edilen</span></div>
+                                            <div>
+                                                <h1 class="price">99.9TL<span style="color: #efefef;font-size: 25px;">&nbsp;/yıl</span></h1>
+                                                <h4 class="planname" style="color: #ffffff;">PRO Üyelik</h4>
+                                                <p class="description" style="color: #efefef;">Sosyal.bio özelliklerini sonuna kadar kullanırken hayvanlara da destek olmak isteyenlere.<br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız </strong>Biyolink Sayfaları</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> Biyolink Sayfaları<br></li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız </strong>Kısaltılmış Linkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> Projeler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg><strong>Sınırsız</strong> QR Codes</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>120 Gün İstatistik Saklama</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Özel Renkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Özel Arkaplan</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Sosyal.bio logosu gizleme</li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">PRO'lara katılın</button></div>
+                                        </div>
+                                    </div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="700">
+                                        <div class="neumorphic" style="position: relative;height: 100%;">
+                                            <div>
+                                                <h1 class="price">0TL<span style="color: #c2cacf;font-size: 25px;">&nbsp;/yıl</span></h1>
+                                                <h4 class="planname">Ücretsiz Üyelik</h4>
+                                                <p class="description">Sosyal.bio'ya hızlı bir başlangıç için her şey sonsuza dek ücretsiz.<br><br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Biyolink Sayfaları</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Kısaltılmış Linkler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 Projeler</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>1 QR Codes</li>
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>30 Gün İstatistik Saklama</li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">Bu Planı Seç</button></div>
+                                        </div>
+                                    </div>
+                                    <div class="col" data-aos="fade-up" data-aos-duration="800">
+                                        <div class="neumorphic">
+                                            <div>
+                                                <h1 class="price">Teklif Alın<span style="color: #c2cacf;font-size: 25px;">&nbsp;/yıl</span></h1>
+                                                <h4 class="planname">Kurumsal Üyelik</h4>
+                                                <p class="description">Kurumsal üyelerimize özel benzersiz Sosyal.bio paketi.<br><br></p>
+                                            </div>
+                                            <ul class="list-unstyled">
+                                                <li><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check-circle-fill">
+                                                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"></path>
+                                                    </svg>Her şey özelleştirilebilir.</li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                                <li class="bos"></li>
+                                            </ul>
+                                            <div class="planisec"><button class="btn btn-primary" type="button">Teklif Alın</button></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </a></div>
-                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="850" data-aos-delay="100"><a class="encokokunanlink" href="#">
-                        <div class="enckokunancard">
-                            <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost3.jpg"></div>
-                            <div class="encokokunanyazidiv">
-                                <h6 class="d-flex encokokunanbaslik">Kitlemizle iletişimimizde dikkat etmemiz gerken hususlar nelerdir</h6>
-                                <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Eyüp Ahmet Başaran</p>
-                            </div>
-                        </div>
-                    </a></div>
-                <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="900" data-aos-delay="150"><a class="encokokunanlink" href="#">
-                        <div class="enckokunancard">
-                            <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost4.jpg"></div>
-                            <div class="encokokunanyazidiv">
-                                <h6 class="d-flex encokokunanbaslik">Paylaşımlarımızı analiz ederken istatistiklerden nasıl faydalanırız?</h6>
-                                <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Heval Nergiz</p>
-                            </div>
-                        </div>
-                    </a></div>
+                    </div>
+                </div>
             </div>
-            <div style="text-align: center;"><a class="btn btn-light outline-button" role="button" href="blog.html">Tüm Yazıları Görüntüleyin</a></div>
-        </div>
-    </div><div class="cursor cursor-shadow"></div>
+            <div class="container anasayfakisim features" style="margin-top: 10rem;overflow-x: hidden;">
+                <h1 style="text-align: center;margin-bottom: 0rem;font-family: 'Gilroy-Medium ☞';">İşte karşınızda sosyal.bio</h1>
+                <p class="aciklama" style="text-align: center;">Sosyal.bio ihtiyacınız olan tüm araç gereçleri ve özellikleri size tek tıkla sunuyor. Ödeme alabilir, istatistikleri görüntüleyebilir ve sayfanızı istediğiniz gibi özelleştirebilirsiniz.</p>
+                <div style="height: .5rem;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;max-width: 25%;margin: 1rem auto 2rem auto;"></div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3" style="/*overflow-x: hidden;*//*scrollbar-width: hidden;*/">
+                    <div class="col" data-aos="zoom-out-left" data-aos-duration="600"><img class="img-fluid" src="assets/img/features1.webp">
+                        <h2 class="baslik">Sayfanı Özelleştir</h2>
+                        <p>Gelişmiş arayüzü ve Türkçe dil desteğiyle sosyal.bio sayfanı dilediğin gibi özelleştir. Tasarımın sana özel olsun.</p>
+                    </div>
+                    <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="50"><img class="img-fluid" src="assets/img/features2.webp">
+                        <h2 class="baslik">Analizleri Toplayın</h2>
+                        <p>Sosyal.bio sayfanızın istatistiklerini toplayın. Görüntülenmeleri ve tıklanmaları görün stratejinizi geliştirin</p>
+                    </div>
+                    <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="100"><img class="img-fluid" src="assets/img/features3.webp">
+                        <h2 class="baslik">Ödemelerinizi Alın</h2>
+                        <p>Sosyal.bio profilinizle Shopier alt yapısıyla güvenli bir şekilde takipçilerinizden bağış toplayabilirsiniz.</p>
+                    </div>
+                </div>
+                <div style="text-align: center;"><button class="btn btn-light outline-button" type="button">Tüm Özellikleri Keşfedin ve Ücretsiz Deneyin</button></div>
+            </div>
+            <div class="container anasayfakisim">
+                <h1 style="text-align: center;margin-bottom: 0rem;font-family: 'Gilroy-Medium ☞';">Blog</h1>
+                <p class="aciklama" style="text-align: center;">Kitleyle iletişim nasıl olmalı? İçeriklerimizin daha fazla görüntülenmesi için ne yapmalı? Platformlar hakkında güncel haberler ve dahası. Blog sayfamızda!</p>
+                <div style="height: .5rem;background: linear-gradient(-144deg, #ff0049, #ff0099);border-radius: 1rem;max-width: 25%;margin: 1rem auto 2rem auto;"></div>
+                <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 row-cols-xl-4 row-cols-xxl-4" style="/*margin: 0;*/margin-bottom: 2rem;">
+                    <div class="col d-flex d-xl-flex justify-content-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="750"><a class="encokokunanlink" href="#">
+                            <div class="enckokunancard">
+                                <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost1.jpg"></div>
+                                <div class="encokokunanyazidiv">
+                                    <h6 class="text-break d-flex encokokunanbaslik">Sosyal medya platformlarının yeni algoritmaları nasıl çalışıyor.</h6>
+                                    <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Furkan Kalay</p>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="800" data-aos-delay="50"><a class="encokokunanlink" href="#">
+                            <div class="enckokunancard">
+                                <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost2.jpg"></div>
+                                <div class="encokokunanyazidiv">
+                                    <h6 class="text-break d-flex encokokunanbaslik">Hesaplarımızını ve kişisel markamızı nasıl daha iyi bir noktaya taşıyabiliriz?</h6>
+                                    <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Emre Göler</p>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="850" data-aos-delay="100"><a class="encokokunanlink" href="#">
+                            <div class="enckokunancard">
+                                <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost3.jpg"></div>
+                                <div class="encokokunanyazidiv">
+                                    <h6 class="text-break d-flex encokokunanbaslik">Kitlemizle iletişimimizde dikkat etmemiz gerken hususlar nelerdir</h6>
+                                    <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Eyüp Ahmet Başaran</p>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col d-xl-flex justify-content-xl-center align-items-xl-center encokkokunancol" data-aos="zoom-out-left" data-aos-duration="900" data-aos-delay="150"><a class="encokokunanlink" href="#">
+                            <div class="enckokunancard">
+                                <div class="encokokunanparentgorsel"><img class="img-fluid encokokunangorsel" src="assets/img/blogpost4.jpg"></div>
+                                <div class="encokokunanyazidiv">
+                                    <h6 class="text-break d-flex encokokunanbaslik">Paylaşımlarımızı analiz ederken istatistiklerden nasıl faydalanırız?</h6>
+                                    <p class="encokokunanyazar"><img class="rounded-circle img-fluid encokokunanyazarpp" src="assets/img/meldadurmus.png">Heval Nergiz</p>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+                <div style="text-align: center;"><a class="btn btn-light outline-button" role="button" href="blog.html">Tüm Yazıları Görüntüleyin</a></div>
+            </div>
+        </div><div class="cursor cursor-shadow"></div>
 	<div class="cursor cursor-dot"></div>
 <script>
     	$(window).mousemove(function(e) { 	  
@@ -426,51 +435,50 @@
 	$('.cursor').removeClass("active")	  
 	})		
 </script>
-    <div style="background-color: #ffffff;margin-top: -3rem;">
-        <footer id="footer" class="footer-basic container" style="margin-top: 3rem;">
-            <div class="social"><a href="https://youtube.com/https://www.youtube.com/channel/UCRlwctzWaWm1x3LUwza7QbA" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="3" y="5" width="18" height="14" rx="4"></rect>
-                        <path d="M10 9l5 3l-5 3z"></path>
-                    </svg></a><a href="https://facebook.com/https://www.facebook.com/Sosyal-Bio-103625478707109"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                    </svg></a><a href="https://twitter.com/https://twitter.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                    </svg></a><a href="https://instagram.com/https://instagram.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                        <circle cx="12" cy="12" r="3"></circle>
-                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                    </svg></a><a href="https://linkedin.com/@https://www.linkedin.com/company/sosyalbio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                        <line x1="8" y1="11" x2="8" y2="16"></line>
-                        <line x1="8" y1="8" x2="8" y2="8.01"></line>
-                        <line x1="12" y1="16" x2="12" y2="11"></line>
-                        <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                    </svg></a><a href="https://wa.me/+905325295040" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-whatsapp">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-                        <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
-                    </svg></a><a href="mailto:info@sosyal.bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                        <polyline points="3 7 12 13 21 7"></polyline>
-                    </svg></a><a href="tel:+908503048383 " target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-phone">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                        <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
-                    </svg></a></div>
-            <ul class="list-inline">
-                <li class="list-inline-item"><a href="hakkimizda.html">Hakkımızda</a></li>
-                <li class="list-inline-item"><a href="gizlilik-sozlesmesi.html">Gizlilik Sözleşmesi</a></li>
-                <li class="list-inline-item"><a href="genel-kurallar-ve-kosullar.html">Genel Kurallar ve Koşullar</a></li>
-                <li class="list-inline-item"><a href="cerez-politikasi.html">Çerez Politikası</a></li>
-            </ul>
-            <p class="copyright">Sosyal Bio © 2022 | All rights reserved.<br></p>
-        </footer>
-    </div>
+    </main>
+    <footer id="footer" class="footer-basic container">
+        <div class="social"><a href="https://youtube.com/https://www.youtube.com/channel/UCRlwctzWaWm1x3LUwza7QbA" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="3" y="5" width="18" height="14" rx="4"></rect>
+                    <path d="M10 9l5 3l-5 3z"></path>
+                </svg></a><a href="https://facebook.com/https://www.facebook.com/Sosyal-Bio-103625478707109"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+                </svg></a><a href="https://twitter.com/https://twitter.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                </svg></a><a href="https://instagram.com/https://instagram.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                </svg></a><a href="https://linkedin.com/@https://www.linkedin.com/company/sosyalbio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                    <line x1="8" y1="11" x2="8" y2="16"></line>
+                    <line x1="8" y1="8" x2="8" y2="8.01"></line>
+                    <line x1="12" y1="16" x2="12" y2="11"></line>
+                    <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                </svg></a><a href="https://wa.me/+905325295040" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-whatsapp">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
+                </svg></a><a href="mailto:info@sosyal.bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                    <polyline points="3 7 12 13 21 7"></polyline>
+                </svg></a><a href="tel:+908503048383 " target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-phone">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
+                </svg></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li class="list-inline-item"><a href="gizlilik-sozlesmesi.html">Gizlilik Sözleşmesi</a></li>
+            <li class="list-inline-item"><a href="genel-kurallar-ve-kosullar.html">Genel Kurallar ve Koşullar</a></li>
+            <li class="list-inline-item"><a href="cerez-politikasi.html">Çerez Politikası</a></li>
+        </ul>
+        <p class="copyright">Sosyal Bio © 2022 | All rights reserved.<br></p>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

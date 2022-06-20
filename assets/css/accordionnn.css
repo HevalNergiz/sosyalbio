@@ -228,3 +228,23 @@
   text-decoration: none;
 }
 
+.homepage footer {
+  max-width: 100%;
+  border-radius: 0;
+  margin-top: -3rem!important;
+}
+
+.adminpanel .navbar {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+.adminpanel header {
+  background-color: #00cec4;
+}
+
+.renkliarkaplan .navbar-light .navbar-toggler {
+  border: none;
+}
+

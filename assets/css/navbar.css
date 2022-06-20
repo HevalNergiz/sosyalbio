@@ -1,0 +1,86 @@
+.logged .log-reg-nav {
+  display: none;
+}
+
+.log-reg-nav {
+  display: flex;
+}
+
+.hesappanel-nav {
+  display: none;
+}
+
+.logged .hesappanel-nav {
+  display: flex;
+}
+
+.log-reg-nav .nav-item, .hesappanel-nav .nav-item {
+  margin-right: 0rem;
+  margin-left: 1rem;
+}
+
+.hesappanel-nav .nav-link:hover {
+  color: #323441!important;
+}
+
+.hesappanel-nav .nav-link {
+  color: #1d1e27!important;
+  font-family: 'Gilroy-Bold ☞';
+  font-size: 1rem;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.adminpanel .navbar-brand {
+  margin-left: -12px;
+}
+
+.renkliarkaplan .nav-link:hover {
+  color: #f2f2f2!important;
+}
+
+.renkliarkaplan .nav-link {
+  color: #ffffff!important;
+}
+
+.renkliarkaplan .logo.normal {
+  display: none;
+}
+
+.logo.normal {
+  display: block;
+}
+
+.renkliarkaplan .logo.beyaz {
+  display: block;
+}
+
+.logo.beyaz {
+  display: none;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.nav-item .dropdown-toggle {
+  color: #1c1d25;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.renkliarkaplan .nav-item .dropdown-toggle {
+  color: #ffffff;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.renkliarkaplan .navbar-toggler-icon {
+  background: url("../../assets/img/togglee-1.svg") no-repeat;
+  height: 25px;
+  width: 25px;
+}
+

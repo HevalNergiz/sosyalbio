@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>social.bio (Backup 1644060287289)</title>
+    <title>social.bioson</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Gilroy-Bold%20☞.css">
     <link rel="stylesheet" href="assets/css/Gilroy-Light%20☞.css">
@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/pricing-plannn.css">
     <link rel="stylesheet" href="assets/css/accordionnn.css">
     <link rel="stylesheet" href="assets/css/backgrounds.css">
+    <link rel="stylesheet" href="assets/css/buttons.css">
     <link rel="stylesheet" href="assets/css/color-picker.css">
     <link rel="stylesheet" href="assets/css/customaudioplayer.css">
     <link rel="stylesheet" href="assets/css/drag.css">
@@ -28,6 +29,7 @@
     <link rel="stylesheet" href="assets/css/hareketli-openbutton.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/new-color-picker.css">
     <link rel="stylesheet" href="assets/css/okudumonayliyorum.css">
     <link rel="stylesheet" href="assets/css/Toggle-Switch-1.css">
@@ -37,82 +39,90 @@
 </head>
 
 <body class="transparentfooter" style="font-family: 'Gilroy-Light ☞';background-color: #f9f9f9;">
-    <nav class="navbar navbar-light navbar-expand-md container" style="margin-bottom: 3rem;">
-        <div class="container-fluid"><a class="navbar-brand" href="#"><img class="logo" src="assets/img/1t.png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav flex-grow-1 justify-content-center" style="font-family: 'Gilroy-Bold ☞';padding-left: 1rem;">
-                    <li class="nav-item" style="display: flex;justify-content: space-around;"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item" style="display: flex;justify-content: space-around;"><a class="nav-link" href="#">Fiyatlandırma</a></li>
-                </ul>
-                <ul class="navbar-nav flex-grow-0 justify-content-end log-reg-nav">
-                    <li class="nav-item" style="display: flex;justify-content: space-around;"><button class="btn btn-link outline-button log-reg-button" type="button">Giriş Yap</button></li>
-                    <li class="nav-item hesappanellink"><a class="nav-link" href="adminpanel.html" style="font-family: 'Gilroy-Bold ☞';">Panele Git</a></li>
-                    <li class="nav-item hesapdropdownu hesappanellink">
-                        <div class="nav-item dropdown" style="display: grid;align-items: center;/*margin-right: .7rem;*/margin-left: .2rem;"><a class="dropdown-toggle d-lg-flex align-items-lg-center" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="font-size: 0.7rem;text-decoration: none;color: #6f6f6f;"><span style="font-family: 'Gilroy-Bold ☞';font-size: 1.1rem;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-person-fill" style="font-size: 1.3rem;">
-                                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path>
-                                    </svg>&nbsp;Hesap&nbsp;</span></a>
-                            <div class="dropdown-menu" style="border: none;border-radius: 10px;font-family: 'Gilroy-Light ☞';"><a class="dropdown-item" href="#">Hesap Bilgileri</a><a class="dropdown-item" href="#">Paket Bilgileri</a><a class="dropdown-item" href="#">Çıkış Yap</a></div>
+    <main>
+        <div class="paymentdiv" style="position: relative;"><img class="doodle1" src="assets/img/doodle.svg"><img class="doodle2" src="assets/img/doodle_1.svg">
+            <h1>Premium Abonelik</h1>
+            <p>Artık çok yaklaştın. Aşağıdaki bilgileri doldurarak Sosyal.bio'nun tüm premium imkanlarından faydalanabilirsin.&nbsp;</p>
+        </div>
+        <form class="paymentdiv">
+            <div class="blok">
+                <h3>Ödeme planı seç</h3>
+                <div class="form-check" style="margin-bottom: .5rem;"><input class="form-check-input" type="radio" id="formCheck-1" name="plan"><label class="form-check-label" for="formCheck-1">Sosyal.bio PRO (Aylık 9.99TL)</label></div>
+                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2" name="plan"><label class="form-check-label" for="formCheck-1">Sosyal.bio PRO (Yıllık 99TL)</label></div>
+            </div>
+            <h6>Kupon kodun var mı?</h6>
+            <div class="blok" style="display: flex;justify-content: space-between;margin-bottom: 1rem;"><input class="form-control" type="text" style="max-width: 100%;" placeholder="Kupon Kodu"><button class="btn btn-dark" type="button" style="border-radius: .7rem;width: 30%;margin-left: .7rem;">Onayla</button></div>
+            <div class="blok" style="display: flex;justify-content: space-between;"><input class="form-control" type="text" style="max-width: 100%;" readonly="" placeholder="INDIRIM50 Kupon Kodu Tanımlandı" disabled=""></div>
+            <h3 class="blok">Fatura Bilgileri</h3>
+            <div class="odemedetaylari blok">
+                <h6>Tam Adınız</h6><input class="form-control" type="text" style="max-width: 100%;">
+            </div>
+            <div class="odemedetaylari blok">
+                <h6>E-Posta</h6><input class="form-control" type="text" style="max-width: 100%;">
+            </div>
+            <div class="odemedetaylari blok">
+                <h6>Telefon Numarası</h6><input class="form-control" type="text" style="max-width: 100%;">
+            </div>
+            <div class="row" style="margin: 0;">
+                <div class="col" style="padding-left: 0;">
+                    <div class="odemedetaylari blok">
+                        <h6>Şehir</h6><input class="form-control" type="text" style="max-width: 100%;">
+                    </div>
+                </div>
+                <div class="col" style="padding-right: 0;">
+                    <div class="odemedetaylari blok">
+                        <h6>İlçe</h6><input class="form-control" type="text" style="max-width: 100%;">
+                    </div>
+                </div>
+            </div>
+            <div class="row blok" style="margin: 0;">
+                <div class="col" style="padding-left: 0;">
+                    <div class="odemedetaylari blok">
+                        <h6>Mahalle/Semt</h6><input class="form-control" type="text" style="max-width: 100%;">
+                    </div>
+                </div>
+                <div class="col" style="padding-right: 0;">
+                    <div class="odemedetaylari blok">
+                        <h6>Posta Kodu</h6><input class="form-control" type="text" style="max-width: 100%;" inputmode="numeric">
+                    </div>
+                </div>
+            </div>
+            <h3 style="margin-top: 2rem;">Kredi Kart Bilgileri</h3>
+        </form>
+        <div class="checkout neumorphic">
+            <div class="credit-card-box">
+                <div class="flip">
+                    <div class="front neumorphic">
+                        <div class="chip"></div>
+                        <div class="logo"><svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
+            <g>
+              <g>
+                <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
+                         c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
+                         c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
+                         M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
+                         c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
+                         c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
+                         l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
+                         C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
+                         C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
+                         c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
+                         h-3.888L19.153,16.8z"/>
+              </g>
+            </g>
+          </svg></div>
+                        <div class="number"></div>
+                        <div class="card-holder"><label class="form-label">Kart sahibi</label>
+                            <div></div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="paymentdiv" style="position: relative;"><img class="doodle1" src="assets/img/doodle.svg"><img class="doodle2" src="assets/img/doodle_1.svg">
-        <h1>Premium Abonelik</h1>
-        <p>Artık çok yaklaştın. Aşağıdaki bilgileri doldurarak Sosyal.bio'nun tüm premium imkanlarından faydalanabilirsin.&nbsp;</p>
-    </div>
-    <form class="paymentdiv">
-        <div class="blok">
-            <h3>Ödeme planı seç</h3>
-            <div class="form-check" style="margin-bottom: .5rem;"><input class="form-check-input" type="radio" id="formCheck-1" name="plan"><label class="form-check-label" for="formCheck-1">Sosyal.bio PRO (Aylık 9.99TL)</label></div>
-            <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2" name="plan"><label class="form-check-label" for="formCheck-1">Sosyal.bio PRO (Yıllık 99TL)</label></div>
-        </div>
-        <h6>Kupon kodun var mı?</h6>
-        <div class="blok" style="display: flex;justify-content: space-between;margin-bottom: 1rem;"><input class="form-control" type="text" style="max-width: 100%;" placeholder="Kupon Kodu"><button class="btn btn-dark" type="button" style="border-radius: .7rem;width: 30%;margin-left: .7rem;">Onayla</button></div>
-        <div class="blok" style="display: flex;justify-content: space-between;"><input class="form-control" type="text" style="max-width: 100%;" readonly="" placeholder="INDIRIM50 Kupon Kodu Tanımlandı" disabled=""></div>
-        <h3 class="blok">Fatura Bilgileri</h3>
-        <div class="odemedetaylari blok">
-            <h6>Tam Adınız</h6><input class="form-control" type="text" style="max-width: 100%;">
-        </div>
-        <div class="odemedetaylari blok">
-            <h6>E-Posta</h6><input class="form-control" type="text" style="max-width: 100%;">
-        </div>
-        <div class="odemedetaylari blok">
-            <h6>Telefon Numarası</h6><input class="form-control" type="text" style="max-width: 100%;">
-        </div>
-        <div class="row" style="margin: 0;">
-            <div class="col" style="padding-left: 0;">
-                <div class="odemedetaylari blok">
-                    <h6>Şehir</h6><input class="form-control" type="text" style="max-width: 100%;">
-                </div>
-            </div>
-            <div class="col" style="padding-right: 0;">
-                <div class="odemedetaylari blok">
-                    <h6>İlçe</h6><input class="form-control" type="text" style="max-width: 100%;">
-                </div>
-            </div>
-        </div>
-        <div class="row blok" style="margin: 0;">
-            <div class="col" style="padding-left: 0;">
-                <div class="odemedetaylari blok">
-                    <h6>Mahalle/Semt</h6><input class="form-control" type="text" style="max-width: 100%;">
-                </div>
-            </div>
-            <div class="col" style="padding-right: 0;">
-                <div class="odemedetaylari blok">
-                    <h6>Posta Kodu</h6><input class="form-control" type="text" style="max-width: 100%;" inputmode="numeric">
-                </div>
-            </div>
-        </div>
-        <h3 style="margin-top: 2rem;">Kredi Kart Bilgileri</h3>
-    </form>
-    <div class="checkout neumorphic">
-        <div class="credit-card-box">
-            <div class="flip">
-                <div class="front neumorphic">
-                    <div class="chip"></div>
-                    <div class="logo"><svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        <div class="card-expiration-date"><label class="form-label">Son kullanma tarihi</label>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="strip"></div>
+                        <div class="logo"> <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
             <g>
               <g>
@@ -130,49 +140,21 @@
               </g>
             </g>
           </svg></div>
-                    <div class="number"></div>
-                    <div class="card-holder"><label class="form-label">Kart sahibi</label>
-                        <div></div>
-                    </div>
-                    <div class="card-expiration-date"><label class="form-label">Son kullanma tarihi</label>
-                        <div></div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div class="strip"></div>
-                    <div class="logo"> <svg version="1.1" id="visa" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-               width="47.834px" height="47.834px" viewBox="0 0 47.834 47.834" style="enable-background:new 0 0 47.834 47.834;">
-            <g>
-              <g>
-                <path d="M44.688,16.814h-3.004c-0.933,0-1.627,0.254-2.037,1.184l-5.773,13.074h4.083c0,0,0.666-1.758,0.817-2.143
-                         c0.447,0,4.414,0.006,4.979,0.006c0.116,0.498,0.474,2.137,0.474,2.137h3.607L44.688,16.814z M39.893,26.01
-                         c0.32-0.819,1.549-3.987,1.549-3.987c-0.021,0.039,0.317-0.825,0.518-1.362l0.262,1.23c0,0,0.745,3.406,0.901,4.119H39.893z
-                         M34.146,26.404c-0.028,2.963-2.684,4.875-6.771,4.875c-1.743-0.018-3.422-0.361-4.332-0.76l0.547-3.193l0.501,0.228
-                         c1.277,0.532,2.104,0.747,3.661,0.747c1.117,0,2.313-0.438,2.325-1.393c0.007-0.625-0.501-1.07-2.016-1.77
-                         c-1.476-0.683-3.43-1.827-3.405-3.876c0.021-2.773,2.729-4.708,6.571-4.708c1.506,0,2.713,0.31,3.483,0.599l-0.526,3.092
-                         l-0.351-0.165c-0.716-0.288-1.638-0.566-2.91-0.546c-1.522,0-2.228,0.634-2.228,1.227c-0.008,0.668,0.824,1.108,2.184,1.77
-                         C33.126,23.546,34.163,24.783,34.146,26.404z M0,16.962l0.05-0.286h6.028c0.813,0.031,1.468,0.29,1.694,1.159l1.311,6.304
-                         C7.795,20.842,4.691,18.099,0,16.962z M17.581,16.812l-6.123,14.239l-4.114,0.007L3.862,19.161
-                         c2.503,1.602,4.635,4.144,5.386,5.914l0.406,1.469l3.808-9.729L17.581,16.812L17.581,16.812z M19.153,16.8h3.89L20.61,31.066
-                         h-3.888L19.153,16.8z"/>
-              </g>
-            </g>
-          </svg></div>
-                    <div class="ccv"><label class="form-label">CCV</label>
-                        <div></div>
+                        <div class="ccv"><label class="form-label">CCV</label>
+                            <div></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <form class="form">
-            <fieldset>
-                <div style="padding: 13px 0 13px 20px;background-color: #f2f4f8;margin-bottom: 2rem;border-radius: 13px;">
-                    <p class="siparisozeti">Sipariş Özeti:&nbsp;<span class="siparisozetiicerik">1 Yıllık Premium Paket - 99TL</span></p>
-                </div><label class="form-label" for="card-number">Kart Numarası</label><input class="form-control input-cart-number" type="number" id="card-number" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-1" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-2" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-3" maxlenght="4" max="9999" min="0000">
-            </fieldset>
-            <fieldset><label class="form-label" for="card-holder">Kart sahibinin adı ve soyadı</label><input class="form-control" type="text" id="card-holder"></fieldset>
-            <fieldset class="fieldset-expiration"><label class="form-label" for="card-expiration-month">Son Kullanma Tarihi</label>
-                <div class="select"><select id="card-expiration-month" class="">
+            <form class="form">
+                <fieldset>
+                    <div style="padding: 13px 0 13px 20px;background-color: #f2f4f8;margin-bottom: 2rem;border-radius: 13px;">
+                        <p class="siparisozeti">Sipariş Özeti:&nbsp;<span class="siparisozetiicerik">1 Yıllık Premium Paket - 99TL</span></p>
+                    </div><label class="form-label" for="card-number">Kart Numarası</label><input class="form-control input-cart-number" type="number" id="card-number" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-1" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-2" maxlenght="4"><input class="form-control input-cart-number" type="number" id="card-number-3" maxlenght="4" max="9999" min="0000">
+                </fieldset>
+                <fieldset><label class="form-label" for="card-holder">Kart sahibinin adı ve soyadı</label><input class="form-control" type="text" id="card-holder"></fieldset>
+                <fieldset class="fieldset-expiration"><label class="form-label" for="card-expiration-month">Son Kullanma Tarihi</label>
+                    <div class="select"><select id="card-expiration-month" class="">
     <optgroup label="Ay">
           <option></option>
           <option>01</option>
@@ -189,7 +171,7 @@
           <option>12</option>
     </optgroup>
 </select></div>
-                <div class="select"><select id="card-expiration-year">
+                    <div class="select"><select id="card-expiration-year">
 <optgroup label="Yıl">
           <option></option>
           <option>2016</option>
@@ -210,53 +192,11 @@
           <option>2031</option>
           <option>2032</option>
         </select></div>
-            </fieldset>
-            <fieldset class="fieldset-ccv"><label class="form-label" for="card-ccv">ccv</label><input class="form-control" type="text" id="card-ccv" maxlenght="3" inputmode="numeric"></fieldset><button class="btn btn-primary" type="button">Onayla</button>
-        </form>
-    </div>
-    <footer id="footer" class="footer-basic container" style="margin-top: 3rem;">
-        <div class="social"><a href="https://youtube.com/https://www.youtube.com/channel/UCRlwctzWaWm1x3LUwza7QbA" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-youtube">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <rect x="3" y="5" width="18" height="14" rx="4"></rect>
-                    <path d="M10 9l5 3l-5 3z"></path>
-                </svg></a><a href="https://facebook.com/https://www.facebook.com/Sosyal-Bio-103625478707109"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                </svg></a><a href="https://twitter.com/https://twitter.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                </svg></a><a href="https://instagram.com/https://instagram.com/sosyal_bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                    <circle cx="12" cy="12" r="3"></circle>
-                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                </svg></a><a href="https://linkedin.com/@https://www.linkedin.com/company/sosyalbio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                    <line x1="8" y1="11" x2="8" y2="16"></line>
-                    <line x1="8" y1="8" x2="8" y2="8.01"></line>
-                    <line x1="12" y1="16" x2="12" y2="11"></line>
-                    <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                </svg></a><a href="https://wa.me/+905325295040" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-whatsapp">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
-                </svg></a><a href="mailto:info@sosyal.bio"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                    <polyline points="3 7 12 13 21 7"></polyline>
-                </svg></a><a href="tel:+908503048383 " target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-phone">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
-                </svg></a></div>
-        <ul class="list-inline">
-            <li class="list-inline-item"><a href="hakkimizda.html">Hakkımızda</a></li>
-            <li class="list-inline-item"><a href="gizlilik-sozlesmesi.html">Gizlilik Sözleşmesi</a></li>
-            <li class="list-inline-item"><a href="genel-kurallar-ve-kosullar.html">Genel Kurallar ve Koşullar</a></li>
-            <li class="list-inline-item"><a href="cerez-politikasi.html">Çerez Politikası</a></li>
-        </ul>
-        <p class="copyright">Sosyal Bio © 2022 | All rights reserved.<br></p>
-    </footer>
+                </fieldset>
+                <fieldset class="fieldset-ccv"><label class="form-label" for="card-ccv">ccv</label><input class="form-control" type="text" id="card-ccv" maxlenght="3" inputmode="numeric"></fieldset><button class="btn btn-primary" type="button">Onayla</button>
+            </form>
+        </div>
+    </main>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>

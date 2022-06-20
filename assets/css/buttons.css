@@ -1,0 +1,88 @@
+.pinkbutton {
+  background: #ff0049;
+  border: 1px solid #ff0049;
+  border-radius: 10px;
+}
+
+.pinkbutton.gradient {
+  background: linear-gradient(-144deg, #ff0049, #ff0099);
+  border: none;
+}
+
+.pinkbutton.outlined {
+  background: none;
+  color: #ff0049;
+}
+
+.pinkbutton.gradient:hover {
+  background: linear-gradient(-144deg, #d5003d, #da0083);
+}
+
+.pinkbutton.outlined:hover {
+  background: #ff0049;
+  border: 1px solid #ff0049;
+  color: #fff;
+}
+
+.pinkbutton:hover {
+  background: #ff006b;
+  border: 1px solid#ff006b;
+  color: #fff;
+}
+
+.log-reg-nav .btn.pinkbutton.outlined:hover {
+  background: #ff0099;
+  color: #ffffff;
+}
+
+.log-reg-nav .btn.pinkbutton.outlined {
+  background: none;
+  color: #ff0099;
+}
+
+.log-reg-nav .btn.pinkbutton {
+  background-color: #ff0099;
+  border: 1px solid #ff0099;
+}
+
+.log-reg-nav .btn.pinkbutton:hover {
+  background-color: #de0085;
+  border: 1px solid #de0085;
+}
+
+.log-reg-nav .btn {
+  border-radius: 12px;
+  padding: 11px 24px;
+}
+
+.fill2-button-secondary {
+  background: #fbfbfb;
+  /*border-color: #ff0049;*/
+  border: none;
+  border-radius: 10px;
+  height: 3rem;
+  padding: 0 2rem;
+  color: #131517;
+}
+
+.fill2-button-secondary:hover {
+  background: #f5f5f5;
+  /*border-color: #ff0049;*/
+  border: none;
+  color: #131517;
+}
+
+.fill2-button-secondary:focus {
+  background: #f5f5f5;
+  /*border-color: #ff0049;*/
+  border: none;
+  color: #131517;
+}
+
+.fill2-button:hover {
+  background: #e30088;
+  /*border-color: #ff0099;*/
+  border: none;
+  color: #ffffff;
+}
+
